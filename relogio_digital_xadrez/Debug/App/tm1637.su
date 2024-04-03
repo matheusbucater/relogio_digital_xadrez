@@ -1,0 +1,4 @@
+../App/tm1637.c:11:6:tm1637_scl_high	16	static
+../App/tm1637.c:15:6:tm1637_scl_low	16	static
+../App/tm1637.c:19:6:tm1637_sda_high	16	static
+../App/tm1637.c:23:6:tm1637_sda_low	16	static
