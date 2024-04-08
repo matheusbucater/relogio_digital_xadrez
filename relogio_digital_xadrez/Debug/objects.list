@@ -1,4 +1,6 @@
 "./App/app.o"
+"./App/game.o"
+"./App/player.o"
 "./App/tm1637.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

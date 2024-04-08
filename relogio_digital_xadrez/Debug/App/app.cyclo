@@ -1,2 +1,2 @@
-../App/app.c:8:6:setup	1
-../App/app.c:12:6:loop	1
+../App/app.c:17:6:setup	1
+../App/app.c:51:6:loop	1

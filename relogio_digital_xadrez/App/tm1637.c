@@ -1,146 +1,144 @@
-/*
- * tm1637.c
- *
- *  Created on: Apr 3, 2024
- *      Author: matheusbucater
- */
-
-#include <stdint.h>
 #include "stm32f4xx_hal.h"
+
 #include "tm1637.h"
 
-void tm1637_scl_high(GPIO_TypeDef* scl_gpio, uint16_t scl_pin);
-void tm1637_scl_low(GPIO_TypeDef* scl_gpio, uint16_t scl_pin);
-void tm1637_sda_high(GPIO_TypeDef* sda_gpio, uint16_t sda_pin);
-void tm1637_sda_low(GPIO_TypeDef* sda_gpio, uint16_t sda_pin);
-void tm1637_start_packet(GPIO_TypeDef* scl_gpio, uint16_t scl_pin, GPIO_TypeDef* sda_gpio, uint16_t sda_pin);
-void tm1637_end_packet(GPIO_TypeDef* scl_gpio, uint16_t scl_pin, GPIO_TypeDef* sda_gpio, uint16_t sda_pin);
-void tm1637_change_sda_mode(uint32_t mode, GPIO_TypeDef* sda_gpio, uint32_t sda_pin);
-uint8_t nums_to_segments(char num);
 
-void tm1637_scl_high(GPIO_TypeDef* scl_gpio, uint16_t scl_pin) {
-	HAL_GPIO_WritePin(scl_gpio, scl_pin, GPIO_PIN_SET);
+void _tm1637Start(display_t display);
+void _tm1637Stop(display_t display);
+void _tm1637ReadResult(display_t display);
+void _tm1637WriteByte(display_t display, unsigned char b);
+void _tm1637DelayUsec(unsigned int i);
+void _tm1637ClkHigh(display_t display);
+void _tm1637ClkLow(display_t display);
+void _tm1637DioHigh(display_t display);
+void _tm1637DioLow(display_t display);
+
+const char segmentMap[] = {
+    0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, // 0-7
+    0x7f, 0x6f, 0x77, 0x7c, 0x39, 0x5e, 0x79, 0x71, // 8-9, A-F
+    0x00
+};
+
+
+void tm1637Init(display_t display)
+{
+    tm1637SetBrightness(display, 8);
 }
 
-void tm1637_scl_low(GPIO_TypeDef* scl_gpio, uint16_t scl_pin) {
-	HAL_GPIO_WritePin(scl_gpio, scl_pin, GPIO_PIN_RESET);
+void tm1637DisplayDecimal(display_t display, int v, int displaySeparator)
+{
+    unsigned char digitArr[4];
+    for (int i = 0; i < 4; ++i) {
+        digitArr[i] = segmentMap[v % 10];
+        if (i == 2 && displaySeparator) {
+            digitArr[i] |= 1 << 7;
+        }
+        v /= 10;
+    }
+
+    _tm1637Start(display);
+    _tm1637WriteByte(display, 0x40);
+    _tm1637ReadResult(display);
+    _tm1637Stop(display);
+
+    _tm1637Start(display);
+    _tm1637WriteByte(display, 0xc0);
+    _tm1637ReadResult(display);
+
+    for (int i = 0; i < 4; ++i) {
+        _tm1637WriteByte(display, digitArr[3 - i]);
+        _tm1637ReadResult(display);
+    }
+
+    _tm1637Stop(display);
 }
 
-void tm1637_sda_high(GPIO_TypeDef* sda_gpio, uint16_t sda_pin) {
-	HAL_GPIO_WritePin(sda_gpio, sda_pin, GPIO_PIN_SET);
+// Valid brightness values: 0 - 8.
+// 0 = display off.
+void tm1637SetBrightness(display_t display, char brightness)
+{
+    // Brightness command:
+    // 1000 0XXX = display off
+    // 1000 1BBB = display on, brightness 0-7
+    // X = don't care
+    // B = brightness
+    _tm1637Start(display);
+    _tm1637WriteByte(display, 0x87 + brightness);
+    _tm1637ReadResult(display);
+    _tm1637Stop(display);
 }
 
-void tm1637_sda_low(GPIO_TypeDef* sda_gpio, uint16_t sda_pin) {
-	HAL_GPIO_WritePin(sda_gpio, sda_pin, GPIO_PIN_RESET);
+void _tm1637Start(display_t display)
+{
+    _tm1637ClkHigh(display);
+    _tm1637DioHigh(display);
+    _tm1637DelayUsec(2);
+    _tm1637DioLow(display);
 }
 
-void tm1637_start_packet(GPIO_TypeDef* scl_gpio, uint16_t scl_pin, GPIO_TypeDef* sda_gpio, uint16_t sda_pin) {
-	tm1637_scl_high(scl_gpio, scl_pin);
-	tm1637_sda_high(sda_gpio, sda_pin);
-	tm1637_sda_low(sda_gpio, sda_pin);
-	tm1637_scl_low(scl_gpio, scl_pin);
+void _tm1637Stop(display_t display)
+{
+    _tm1637ClkLow(display);
+    _tm1637DelayUsec(2);
+    _tm1637DioLow(display);
+    _tm1637DelayUsec(2);
+    _tm1637ClkHigh(display);
+    _tm1637DelayUsec(2);
+    _tm1637DioHigh(display);
 }
 
-void tm1637_end_packet(GPIO_TypeDef* scl_gpio, uint16_t scl_pin, GPIO_TypeDef* sda_gpio, uint16_t sda_pin) {
-	tm1637_scl_low(scl_gpio, scl_pin);
-	tm1637_sda_low(sda_gpio, sda_pin);
-	tm1637_scl_high(scl_gpio, scl_pin);
-	tm1637_sda_high(sda_gpio, sda_pin);
+void _tm1637ReadResult(display_t display)
+{
+    _tm1637ClkLow(display);
+    _tm1637DelayUsec(5);
+    // while (dio); // We're cheating here and not actually reading back the response.
+    _tm1637ClkHigh(display);
+    _tm1637DelayUsec(2);
+    _tm1637ClkLow(display);
 }
 
-void tm1637_change_sda_mode(uint32_t mode, GPIO_TypeDef* sda_gpio, uint32_t sda_pin) {
-	GPIO_InitTypeDef GPIO_InitStruct = {0};
-	GPIO_InitStruct.Pin = sda_pin;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-	GPIO_InitStruct.Mode = mode;
-	HAL_GPIO_Init(sda_gpio, &GPIO_InitStruct);
+void _tm1637WriteByte(display_t display, unsigned char b)
+{
+    for (int i = 0; i < 8; ++i) {
+        _tm1637ClkLow(display);
+        if (b & 0x01) {
+            _tm1637DioHigh(display);
+        }
+        else {
+            _tm1637DioLow(display);
+        }
+        _tm1637DelayUsec(3);
+        b >>= 1;
+        _tm1637ClkHigh(display);
+        _tm1637DelayUsec(3);
+    }
 }
 
-// teste
-void tm1637_display(void) {
+void _tm1637DelayUsec(unsigned int i)
+{
+    for (; i>0; i--) {
+        for (int j = 0; j < 10; ++j) {
+            __asm__ __volatile__("nop\n\t":::"memory");
+        }
+    }
 }
 
-uint8_t nums_to_segments(char num) {
-	switch(num) {
-	case '0':
-		// 1111 1100 -> 0011 1111
-		// 0011 1111
-		//  3   f
-		return 0x3f;
-	case '1':
-		// 0110 0000
-		// 0000 0110
-		//  0   6
-		return 0x06;
-	case '2':
-		// 1101 1010
-		// 0101 1011
-		//  5   b
-		return 0x5b;
-	case '3':
-		// 1111 0010
-		// 0100 1111
-		//  4   f
-		return 0x4f;
-	case '4':
-		// 0110 0110
-		// 0110 0110
-		//  6   6
-		return 0x66;
-	case '5':
-		// 1011 0110
-		// 0110 1101
-		//  6   d
-		return 0x6d;
-	case '6':
-		// 1011 1110
-		// 0111 1101
-		//  7   d
-		return 0x7d;
-	case '7':
-		// 1110 0000
-		// 0000 0111
-		//  0   7
-		return 0x07;
-	case '8':
-		// 1111 1110
-		// 0111 1111
-		//  7   f
-		return 0x7f;
-	case '9':
-		// 1111 0110
-		// 0110 1111
-		//  6   f
-		return 0x6f;
-	}
+void _tm1637ClkHigh(display_t display)
+{
+    HAL_GPIO_WritePin(display.clk_port, display.clk_pin, GPIO_PIN_SET);
 }
 
-/*
-void tm1637_data_out(uint8_t* data_buffer, GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) {
-	for (uint8_t i = 0; i < PACKET_SIZE; i++ ) {
-
-		tm1637_scl_high(GPIOx, GPIO_Pin);
-
-		if (data_buffer[i] == GPIO_PIN_SET) {
-			tm1637_sda_high(GPIOx, GPIO_Pin);
-		} else {
-			tm1637_sda_low(GPIOx, GPIO_Pin);
-		}
-
-		tm1637_scl_low(GPIOx, GPIO_Pin);
-	}
+void _tm1637ClkLow(display_t display)
+{
+    HAL_GPIO_WritePin(display.clk_port, display.clk_pin, GPIO_PIN_RESET);
 }
 
-void tm1637_transfer_command(uint8_t* command, GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) {
-	uint8_t byte_data[8] = { 0 };
-
-	for (uint8_t i = 0; i < PACKET_SIZE; i++) {
-		byte_data[i] = (command[0] & (0x01 << i)) && 1;
-	}
-
-	tm1637_start_packet(GPIOx, GPIO_Pin);
-	tm1637_data_out(byte_data, GPIOx, GPIO_Pin);
-
+void _tm1637DioHigh(display_t display)
+{
+    HAL_GPIO_WritePin(display.dio_port, display.dio_pin, GPIO_PIN_SET);
 }
-*/
+
+void _tm1637DioLow(display_t display)
+{
+    HAL_GPIO_WritePin(display.dio_port, display.dio_pin, GPIO_PIN_RESET);
+}

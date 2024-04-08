@@ -6,14 +6,20 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../App/app.c \
+../App/game.c \
+../App/player.c \
 ../App/tm1637.c 
 
 OBJS += \
 ./App/app.o \
+./App/game.o \
+./App/player.o \
 ./App/tm1637.o 
 
 C_DEPS += \
 ./App/app.d \
+./App/game.d \
+./App/player.d \
 ./App/tm1637.d 
 
 
@@ -24,7 +30,7 @@ App/%.o App/%.su App/%.cyclo: ../App/%.c App/subdir.mk
 clean: clean-App
 
 clean-App:
-	-$(RM) ./App/app.cyclo ./App/app.d ./App/app.o ./App/app.su ./App/tm1637.cyclo ./App/tm1637.d ./App/tm1637.o ./App/tm1637.su
+	-$(RM) ./App/app.cyclo ./App/app.d ./App/app.o ./App/app.su ./App/game.cyclo ./App/game.d ./App/game.o ./App/game.su ./App/player.cyclo ./App/player.d ./App/player.o ./App/player.su ./App/tm1637.cyclo ./App/tm1637.d ./App/tm1637.o ./App/tm1637.su
 
 .PHONY: clean-App
 
