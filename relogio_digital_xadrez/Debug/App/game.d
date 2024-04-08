@@ -25,7 +25,8 @@ App/game.o: ../App/game.c ../App/game.h ../App/player.h ../App/tm1637.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Core/Inc/main.h ../App/timer.h
 ../App/game.h:
 ../App/player.h:
 ../App/tm1637.h:
@@ -56,3 +57,5 @@ App/game.o: ../App/game.c ../App/game.h ../App/player.h ../App/tm1637.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+../Core/Inc/main.h:
+../App/timer.h:

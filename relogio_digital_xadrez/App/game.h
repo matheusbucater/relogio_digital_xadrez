@@ -25,6 +25,7 @@ typedef struct {
 void game_init(game_t *game, player_t *player1, player_t *player2);
 void game_start(game_t *game);
 void game_stop(game_t *game);
+void game_change_active_player(game_t *game, players_t player);
 void game_update(game_t *game);
 
 #endif /* GAME_H_ */

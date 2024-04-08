@@ -1,2 +1,5 @@
-../App/app.c:17:6:setup	32	static
-../App/app.c:51:6:loop	4	static
+../App/app.c:21:6:tick	8	static
+../App/app.c:25:6:debounce_tim	4	static
+../App/app.c:29:6:debounce	8	static
+../App/app.c:33:6:setup	32	static
+../App/app.c:75:6:loop	4	static

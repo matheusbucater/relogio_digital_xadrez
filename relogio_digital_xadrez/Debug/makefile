@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -61,8 +61,8 @@ all: main-build
 main-build: relogio_digital_xadrez.elf secondary-outputs
 
 # Tool invocations
-relogio_digital_xadrez.elf relogio_digital_xadrez.map: $(OBJS) $(USER_OBJS) /home/matheusbucater/Downloads/PRJ3\ -\ Relogio\ Digital\ para\ Xadrez/relogio_digital_xadrez/STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "relogio_digital_xadrez.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/matheusbucater/Downloads/PRJ3 - Relogio Digital para Xadrez/relogio_digital_xadrez/STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="relogio_digital_xadrez.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+relogio_digital_xadrez.elf relogio_digital_xadrez.map: $(OBJS) $(USER_OBJS) /home/coppolimeros/Documentos/ufu/semb1/relogio_digital_xadrez/relogio_digital_xadrez/STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "relogio_digital_xadrez.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/coppolimeros/Documentos/ufu/semb1/relogio_digital_xadrez/relogio_digital_xadrez/STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="relogio_digital_xadrez.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

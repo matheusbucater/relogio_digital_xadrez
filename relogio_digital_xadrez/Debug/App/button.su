@@ -1,0 +1,4 @@
+../App/button.c:14:6:button_attach_player1_callback	16	static
+../App/button.c:18:6:button_attach_player2_callback	16	static
+../App/button.c:22:6:button_attach_match_reset_callback	16	static
+../App/button.c:26:6:HAL_GPIO_EXTI_Callback	16	static
