@@ -8,9 +8,12 @@
 #ifndef BUTTON_H_
 #define BUTTON_H_
 
-void button_attach_player1_callback(void (*button_player1_callback) (void));
-void button_attach_player2_callback(void (*button_player2_callback) (void));
-void button_attach_match_reset_callback(void (*button_match_reset_callback) (void));
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+typedef enum {
+	BTN_MATCH_RESET = 0,
+	BTN_PLAYER1,
+	BTN_PLAYER2
+} button_id;
+
+void button_attach_callback(void (*callback) (button_id btn_id));
 
 #endif /* BUTTON_H_ */

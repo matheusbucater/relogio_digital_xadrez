@@ -14,7 +14,7 @@
 typedef enum{
 	PLAYER1 = 0,
 	PLAYER2
-} players_t;
+} player_id;
 
 typedef struct {
 	uint32_t minutes;
@@ -22,16 +22,15 @@ typedef struct {
 } player_time_t;
 
 typedef struct {
-	players_t player;
+	player_id player;
 	player_time_t start_time;
 	player_time_t curr_time;
 	display_t display;
 } player_t;
 
-void player_init(player_t *player, player_time_t start_time, players_t player_n, display_t display);
-void player_start(player_t *player);
-void player_stop(player_t *player);
-int player_time_ended(player_t player);
+void player_init(player_t *player, player_time_t start_time, player_id plr_id, display_t display);
+void player_time_restart(player_t *player);
+int  player_time_ended(player_t player);
 void player_time_dec(player_t *player);
 void player_display_curr(player_t player);
 

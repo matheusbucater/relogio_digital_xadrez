@@ -5,39 +5,52 @@
  *      Author: coppolimeros
  */
 
-#include "main.h"
+#include "timer.h"
 
-void (*timer_callback1) (void);
-void (*timer_callback2) (void);
-// void (*timer_callback3 (void);
+extern TIM_HandleTypeDef htim2;
 
-void timer_start(TIM_HandleTypeDef* htim) {
-	HAL_TIM_Base_Start_IT(htim);
+void (*timer_callback) (timer_id id) = NULL;
+
+void timer_start(timer_id id) {
+	switch (id) {
+		case TIM_TICK:
+			HAL_TIM_Base_Start_IT(&htim2);
+			break;
+		default:
+			break;
+	}
 }
 
-void timer_stop(TIM_HandleTypeDef* htim) {
-	HAL_TIM_Base_Stop_IT(htim);
+void timer_stop(timer_id id) {
+	switch (id) {
+		case TIM_TICK:
+			HAL_TIM_Base_Stop_IT(&htim2);
+			break;
+		default:
+			break;
+	}
 }
 
-void timer_restart(TIM_HandleTypeDef* htim) {
-	__HAL_TIM_SET_COUNTER(htim, 0);
+void timer_restart(timer_id id) {
+	switch (id) {
+		case TIM_TICK:
+			__HAL_TIM_SET_COUNTER(&htim2, 0);
+			break;
+		default:
+			break;
+	}
 }
 
-void timer_attach_callback1(void (*timer_callback1) (void)) {
-	timer_callback1();
+void timer_attach_callback(void (*callback) (timer_id id)) {
+	timer_callback = callback;
 }
 
-void timer_attach_callback2(void (*timer_callback2) (void)) {
-	timer_callback2();
-}
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim) {
 
-	if (htim->Instance == TIM1) {
-		timer_callback1();
-	}
+	if (timer_callback == NULL) return;
 
-	if (htim->Instance == TIM2) {
-		timer_callback2();
+	if (htim == &htim2) {
+		timer_callback(TIM_TICK);
 	}
 }

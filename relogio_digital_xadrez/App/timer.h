@@ -8,11 +8,16 @@
 #ifndef TIMER_H_
 #define TIMER_H_
 
-void timer_start(TIM_HandleTypeDef* htim);
-void timer_stop(TIM_HandleTypeDef* htim);
-void timer_restart(TIM_HandleTypeDef* htim);
-void timer_attach_callback1(void (*timer_callback1) (void));
-void timer_attach_callback2(void (*timer_callback2) (void));
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim);
+#include "main.h"
+
+typedef enum {
+	TIM_TICK = 0,
+	TIM_DEBOUNCE
+} timer_id;
+
+void timer_start(timer_id id);
+void timer_stop(timer_id id);
+void timer_restart(timer_id it);
+void timer_attach_callback(void (*callback) (timer_id id));
 
 #endif /* TIMER_H_ */

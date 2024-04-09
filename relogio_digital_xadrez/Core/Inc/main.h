@@ -59,14 +59,17 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SCL1_Pin GPIO_PIN_10
 #define SCL1_GPIO_Port GPIOB
-#define buzzer_Pin GPIO_PIN_9
-#define buzzer_GPIO_Port GPIOA
+#define BUZZ_Pin GPIO_PIN_9
+#define BUZZ_GPIO_Port GPIOA
 #define BTN_PLAYER2_Pin GPIO_PIN_10
 #define BTN_PLAYER2_GPIO_Port GPIOA
+#define BTN_PLAYER2_EXTI_IRQn EXTI15_10_IRQn
 #define BTN_PLAYER1_Pin GPIO_PIN_11
 #define BTN_PLAYER1_GPIO_Port GPIOA
+#define BTN_PLAYER1_EXTI_IRQn EXTI15_10_IRQn
 #define BTN_MATCH_RESET_Pin GPIO_PIN_12
 #define BTN_MATCH_RESET_GPIO_Port GPIOA
+#define BTN_MATCH_RESET_EXTI_IRQn EXTI15_10_IRQn
 #define SDA1_Pin GPIO_PIN_3
 #define SDA1_GPIO_Port GPIOB
 #define SCL2_Pin GPIO_PIN_6

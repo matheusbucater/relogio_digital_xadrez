@@ -1,5 +1,4 @@
-../App/app.c:21:6:tick	1
-../App/app.c:25:6:debounce_tim	1
-../App/app.c:29:6:debounce	1
-../App/app.c:33:6:setup	1
-../App/app.c:75:6:loop	1
+../App/app.c:19:6:tim_callback	2
+../App/app.c:29:6:btn_callback	5
+../App/app.c:45:6:setup	1
+../App/app.c:79:6:loop	1

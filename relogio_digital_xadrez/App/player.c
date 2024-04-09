@@ -8,23 +8,16 @@
 #include "player.h"
 #include "tm1637.h"
 
-void player_init(player_t *player, player_time_t start_time, players_t player_n, display_t display) {
+void player_init(player_t *player, player_time_t start_time, player_id plr_id, display_t display) {
 	player->start_time = start_time;
 	player->curr_time = start_time;
-	player->player = player_n;
+	player->player = plr_id;
 	player->display = display;
 }
 
-/*
-void player_start(player_t *player) {
-	player->state = PLAYING;
-}
-
-void player_stop(player_t *player) {
-	player->state = WAITING;
+void player_time_restart(player_t *player) {
 	player->curr_time = player->start_time;
 }
-*/
 
 int player_time_ended(player_t player) {
 	uint32_t min = player.curr_time.minutes;

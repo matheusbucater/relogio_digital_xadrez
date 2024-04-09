@@ -6,33 +6,27 @@
  */
 
 #include "main.h"
+#include "button.h"
 
-void (*button_player1_callback) (void);
-void (*button_player2_callback) (void);
-void (*button_match_reset_callback) (void);
+void (*button_callback) (button_id btn_id) = NULL;
 
-void button_attach_player1_callback(void (*button_player1_callback) (void)) {
-	button_player1_callback();
-}
-
-void button_attach_player2_callback(void (*button_player2_callback) (void)) {
-	button_player2_callback();
-}
-
-void button_attach_match_reset_callback(void (*button_match_reset_callback) (void)) {
-	button_match_reset_callback();
+void button_attach_callback(void (*callback) (button_id btn_id)) {
+	button_callback = callback;
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+
+	if (button_callback == NULL) return;
+
 	switch (GPIO_Pin) {
+		case BTN_MATCH_RESET_Pin:
+			button_callback(BTN_MATCH_RESET);
+			break;
 		case BTN_PLAYER1_Pin:
-			button_player1_callback();
+			button_callback(BTN_PLAYER1);
 			break;
 		case BTN_PLAYER2_Pin:
-			button_player2_callback();
-			break;
-		case BTN_MATCH_RESET_Pin:
-			button_match_reset_callback();
+			button_callback(BTN_PLAYER2);
 			break;
 		default:
 			break;
