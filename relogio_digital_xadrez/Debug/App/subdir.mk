@@ -7,6 +7,7 @@
 C_SRCS += \
 ../App/app.c \
 ../App/button.c \
+../App/display.c \
 ../App/game.c \
 ../App/player.c \
 ../App/timer.c \
@@ -15,6 +16,7 @@ C_SRCS += \
 OBJS += \
 ./App/app.o \
 ./App/button.o \
+./App/display.o \
 ./App/game.o \
 ./App/player.o \
 ./App/timer.o \
@@ -23,6 +25,7 @@ OBJS += \
 C_DEPS += \
 ./App/app.d \
 ./App/button.d \
+./App/display.d \
 ./App/game.d \
 ./App/player.d \
 ./App/timer.d \
@@ -36,7 +39,7 @@ App/%.o App/%.su App/%.cyclo: ../App/%.c App/subdir.mk
 clean: clean-App
 
 clean-App:
-	-$(RM) ./App/app.cyclo ./App/app.d ./App/app.o ./App/app.su ./App/button.cyclo ./App/button.d ./App/button.o ./App/button.su ./App/game.cyclo ./App/game.d ./App/game.o ./App/game.su ./App/player.cyclo ./App/player.d ./App/player.o ./App/player.su ./App/timer.cyclo ./App/timer.d ./App/timer.o ./App/timer.su ./App/tm1637.cyclo ./App/tm1637.d ./App/tm1637.o ./App/tm1637.su
+	-$(RM) ./App/app.cyclo ./App/app.d ./App/app.o ./App/app.su ./App/button.cyclo ./App/button.d ./App/button.o ./App/button.su ./App/display.cyclo ./App/display.d ./App/display.o ./App/display.su ./App/game.cyclo ./App/game.d ./App/game.o ./App/game.su ./App/player.cyclo ./App/player.d ./App/player.o ./App/player.su ./App/timer.cyclo ./App/timer.d ./App/timer.o ./App/timer.su ./App/tm1637.cyclo ./App/tm1637.d ./App/tm1637.o ./App/tm1637.su
 
 .PHONY: clean-App
 

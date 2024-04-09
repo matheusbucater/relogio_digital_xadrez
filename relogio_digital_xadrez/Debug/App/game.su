@@ -1,5 +1,0 @@
-../App/game.c:17:6:game_init	40	static
-../App/game.c:27:6:game_start	16	static
-../App/game.c:34:6:game_stop	16	static
-../App/game.c:40:6:game_change_active_player	16	static
-../App/game.c:52:6:game_update	48	static

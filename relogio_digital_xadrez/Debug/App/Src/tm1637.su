@@ -1,0 +1,12 @@
+../App/Src/tm1637.c:21:6:tm1637Init	24	static
+../App/Src/tm1637.c:29:6:tm1637DisplayDecimal	48	static
+../App/Src/tm1637.c:59:6:tm1637SetBrightness	32	static
+../App/Src/tm1637.c:72:6:_tm1637Start	24	static
+../App/Src/tm1637.c:80:6:_tm1637Stop	24	static
+../App/Src/tm1637.c:91:6:_tm1637ReadResult	24	static
+../App/Src/tm1637.c:101:6:_tm1637WriteByte	40	static
+../App/Src/tm1637.c:118:6:_tm1637DelayUsec	24	static,ignoring_inline_asm
+../App/Src/tm1637.c:127:6:_tm1637ClkHigh	24	static
+../App/Src/tm1637.c:132:6:_tm1637ClkLow	24	static
+../App/Src/tm1637.c:137:6:_tm1637DioHigh	24	static
+../App/Src/tm1637.c:142:6:_tm1637DioLow	24	static

@@ -1,0 +1,5 @@
+../App/Src/game.c:16:6:game_init	1
+../App/Src/game.c:26:6:game_start	1
+../App/Src/game.c:33:6:game_stop	1
+../App/Src/game.c:39:6:game_change_active_player	3
+../App/Src/game.c:51:6:game_update	5

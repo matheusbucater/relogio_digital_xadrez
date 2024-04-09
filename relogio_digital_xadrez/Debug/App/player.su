@@ -1,5 +1,0 @@
-../App/player.c:11:6:player_init	24	static
-../App/player.c:18:6:player_time_restart	16	static
-../App/player.c:22:5:player_time_ended	16	static
-../App/player.c:33:6:player_time_dec	16	static
-../App/player.c:42:6:player_display_curr	16	static

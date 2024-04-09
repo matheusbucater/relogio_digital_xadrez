@@ -1,2 +1,0 @@
-../App/button.c:13:6:button_attach_callback	16	static
-../App/button.c:17:6:HAL_GPIO_EXTI_Callback	16	static

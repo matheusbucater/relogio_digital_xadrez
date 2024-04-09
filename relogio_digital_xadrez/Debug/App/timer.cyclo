@@ -1,5 +1,0 @@
-../App/timer.c:14:6:timer_start	2
-../App/timer.c:24:6:timer_stop	2
-../App/timer.c:34:6:timer_restart	2
-../App/timer.c:44:6:timer_attach_callback	1
-../App/timer.c:49:6:HAL_TIM_PeriodElapsedCallback	3

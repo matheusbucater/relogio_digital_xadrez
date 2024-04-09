@@ -1,0 +1,5 @@
+../App/Src/timer.c:15:6:timer_start	16	static
+../App/Src/timer.c:25:6:timer_stop	16	static
+../App/Src/timer.c:35:6:timer_restart	16	static
+../App/Src/timer.c:45:6:timer_attach_callback	16	static
+../App/Src/timer.c:50:6:HAL_TIM_PeriodElapsedCallback	16	static

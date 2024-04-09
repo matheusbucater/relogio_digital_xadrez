@@ -1,4 +1,0 @@
-../App/app.c:19:6:tim_callback	16	static
-../App/app.c:29:6:btn_callback	16	static
-../App/app.c:45:6:setup	88	static
-../App/app.c:79:6:loop	4	static

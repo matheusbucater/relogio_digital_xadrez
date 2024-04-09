@@ -59,448 +59,408 @@ Discarded input sections
  .ARM.exidx     0x00000000       0x10 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
                 0x00000000       0x20 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .group         0x00000000        0xc ./App/app.o
- .text          0x00000000        0x0 ./App/app.o
- .data          0x00000000        0x0 ./App/app.o
- .bss           0x00000000        0x0 ./App/app.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .group         0x00000000        0xc ./App/button.o
- .text          0x00000000        0x0 ./App/button.o
- .data          0x00000000        0x0 ./App/button.o
- .bss           0x00000000        0x0 ./App/button.o
- .debug_macro   0x00000000      0xab4 ./App/button.o
- .debug_macro   0x00000000      0x295 ./App/button.o
- .debug_macro   0x00000000       0x2e ./App/button.o
- .debug_macro   0x00000000       0x28 ./App/button.o
- .debug_macro   0x00000000       0x22 ./App/button.o
- .debug_macro   0x00000000       0x8e ./App/button.o
- .debug_macro   0x00000000       0x51 ./App/button.o
- .debug_macro   0x00000000      0x103 ./App/button.o
- .debug_macro   0x00000000       0x6a ./App/button.o
- .debug_macro   0x00000000      0x1df ./App/button.o
- .debug_macro   0x00000000       0x1c ./App/button.o
- .debug_macro   0x00000000       0x22 ./App/button.o
- .debug_macro   0x00000000       0xfb ./App/button.o
- .debug_macro   0x00000000     0x1011 ./App/button.o
- .debug_macro   0x00000000      0x11f ./App/button.o
- .debug_macro   0x00000000     0xb953 ./App/button.o
- .debug_macro   0x00000000       0x6d ./App/button.o
- .debug_macro   0x00000000     0x368c ./App/button.o
- .debug_macro   0x00000000      0x189 ./App/button.o
- .debug_macro   0x00000000       0x5c ./App/button.o
- .debug_macro   0x00000000      0x45c ./App/button.o
- .debug_macro   0x00000000      0x9e9 ./App/button.o
- .debug_macro   0x00000000      0x115 ./App/button.o
- .debug_macro   0x00000000      0x11b ./App/button.o
- .debug_macro   0x00000000       0xa5 ./App/button.o
- .debug_macro   0x00000000      0x15f ./App/button.o
- .debug_macro   0x00000000      0x287 ./App/button.o
- .debug_macro   0x00000000       0x5f ./App/button.o
- .debug_macro   0x00000000      0x236 ./App/button.o
- .debug_macro   0x00000000      0x132 ./App/button.o
- .debug_macro   0x00000000      0x264 ./App/button.o
- .debug_macro   0x00000000       0x2e ./App/button.o
- .debug_macro   0x00000000      0x127 ./App/button.o
- .debug_macro   0x00000000       0x85 ./App/button.o
- .debug_macro   0x00000000       0x89 ./App/button.o
- .debug_macro   0x00000000      0x8ed ./App/button.o
- .debug_macro   0x00000000       0x47 ./App/button.o
- .debug_macro   0x00000000      0x126 ./App/button.o
- .debug_macro   0x00000000       0x76 ./App/button.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .group         0x00000000        0xc ./App/game.o
- .text          0x00000000        0x0 ./App/game.o
- .data          0x00000000        0x0 ./App/game.o
- .bss           0x00000000        0x0 ./App/game.o
- .debug_macro   0x00000000      0xab4 ./App/game.o
- .debug_macro   0x00000000       0x22 ./App/game.o
- .debug_macro   0x00000000       0x8e ./App/game.o
- .debug_macro   0x00000000       0x51 ./App/game.o
- .debug_macro   0x00000000      0x103 ./App/game.o
- .debug_macro   0x00000000       0x6a ./App/game.o
- .debug_macro   0x00000000      0x1df ./App/game.o
- .debug_macro   0x00000000      0x295 ./App/game.o
- .debug_macro   0x00000000       0x2e ./App/game.o
- .debug_macro   0x00000000       0x28 ./App/game.o
- .debug_macro   0x00000000       0x1c ./App/game.o
- .debug_macro   0x00000000       0x22 ./App/game.o
- .debug_macro   0x00000000       0xfb ./App/game.o
- .debug_macro   0x00000000     0x1011 ./App/game.o
- .debug_macro   0x00000000      0x11f ./App/game.o
- .debug_macro   0x00000000     0xb953 ./App/game.o
- .debug_macro   0x00000000       0x6d ./App/game.o
- .debug_macro   0x00000000     0x368c ./App/game.o
- .debug_macro   0x00000000      0x189 ./App/game.o
- .debug_macro   0x00000000       0x5c ./App/game.o
- .debug_macro   0x00000000      0x45c ./App/game.o
- .debug_macro   0x00000000      0x9e9 ./App/game.o
- .debug_macro   0x00000000      0x115 ./App/game.o
- .debug_macro   0x00000000      0x11b ./App/game.o
- .debug_macro   0x00000000       0xa5 ./App/game.o
- .debug_macro   0x00000000      0x15f ./App/game.o
- .debug_macro   0x00000000      0x287 ./App/game.o
- .debug_macro   0x00000000       0x5f ./App/game.o
- .debug_macro   0x00000000      0x236 ./App/game.o
- .debug_macro   0x00000000      0x132 ./App/game.o
- .debug_macro   0x00000000      0x264 ./App/game.o
- .debug_macro   0x00000000       0x2e ./App/game.o
- .debug_macro   0x00000000      0x127 ./App/game.o
- .debug_macro   0x00000000       0x85 ./App/game.o
- .debug_macro   0x00000000       0x89 ./App/game.o
- .debug_macro   0x00000000      0x8ed ./App/game.o
- .debug_macro   0x00000000       0x47 ./App/game.o
- .debug_macro   0x00000000      0x126 ./App/game.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .group         0x00000000        0xc ./App/player.o
- .text          0x00000000        0x0 ./App/player.o
- .data          0x00000000        0x0 ./App/player.o
- .bss           0x00000000        0x0 ./App/player.o
- .debug_macro   0x00000000      0xab4 ./App/player.o
- .debug_macro   0x00000000       0x22 ./App/player.o
- .debug_macro   0x00000000       0x8e ./App/player.o
- .debug_macro   0x00000000       0x51 ./App/player.o
- .debug_macro   0x00000000      0x103 ./App/player.o
- .debug_macro   0x00000000       0x6a ./App/player.o
- .debug_macro   0x00000000      0x1df ./App/player.o
- .debug_macro   0x00000000      0x295 ./App/player.o
- .debug_macro   0x00000000       0x2e ./App/player.o
- .debug_macro   0x00000000       0x28 ./App/player.o
- .debug_macro   0x00000000       0x1c ./App/player.o
- .debug_macro   0x00000000       0x22 ./App/player.o
- .debug_macro   0x00000000       0xfb ./App/player.o
- .debug_macro   0x00000000     0x1011 ./App/player.o
- .debug_macro   0x00000000      0x11f ./App/player.o
- .debug_macro   0x00000000     0xb953 ./App/player.o
- .debug_macro   0x00000000       0x6d ./App/player.o
- .debug_macro   0x00000000     0x368c ./App/player.o
- .debug_macro   0x00000000      0x189 ./App/player.o
- .debug_macro   0x00000000       0x5c ./App/player.o
- .debug_macro   0x00000000      0x45c ./App/player.o
- .debug_macro   0x00000000      0x9e9 ./App/player.o
- .debug_macro   0x00000000      0x115 ./App/player.o
- .debug_macro   0x00000000      0x11b ./App/player.o
- .debug_macro   0x00000000       0xa5 ./App/player.o
- .debug_macro   0x00000000      0x15f ./App/player.o
- .debug_macro   0x00000000      0x287 ./App/player.o
- .debug_macro   0x00000000       0x5f ./App/player.o
- .debug_macro   0x00000000      0x236 ./App/player.o
- .debug_macro   0x00000000      0x132 ./App/player.o
- .debug_macro   0x00000000      0x264 ./App/player.o
- .debug_macro   0x00000000       0x2e ./App/player.o
- .debug_macro   0x00000000      0x127 ./App/player.o
- .debug_macro   0x00000000       0x85 ./App/player.o
- .debug_macro   0x00000000       0x89 ./App/player.o
- .debug_macro   0x00000000      0x8ed ./App/player.o
- .debug_macro   0x00000000       0x47 ./App/player.o
- .debug_macro   0x00000000      0x126 ./App/player.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .group         0x00000000        0xc ./App/timer.o
- .text          0x00000000        0x0 ./App/timer.o
- .data          0x00000000        0x0 ./App/timer.o
- .bss           0x00000000        0x0 ./App/timer.o
- .debug_macro   0x00000000      0xab4 ./App/timer.o
- .debug_macro   0x00000000      0x295 ./App/timer.o
- .debug_macro   0x00000000       0x2e ./App/timer.o
- .debug_macro   0x00000000       0x28 ./App/timer.o
- .debug_macro   0x00000000       0x22 ./App/timer.o
- .debug_macro   0x00000000       0x8e ./App/timer.o
- .debug_macro   0x00000000       0x51 ./App/timer.o
- .debug_macro   0x00000000      0x103 ./App/timer.o
- .debug_macro   0x00000000       0x6a ./App/timer.o
- .debug_macro   0x00000000      0x1df ./App/timer.o
- .debug_macro   0x00000000       0x1c ./App/timer.o
- .debug_macro   0x00000000       0x22 ./App/timer.o
- .debug_macro   0x00000000       0xfb ./App/timer.o
- .debug_macro   0x00000000     0x1011 ./App/timer.o
- .debug_macro   0x00000000      0x11f ./App/timer.o
- .debug_macro   0x00000000     0xb953 ./App/timer.o
- .debug_macro   0x00000000       0x6d ./App/timer.o
- .debug_macro   0x00000000     0x368c ./App/timer.o
- .debug_macro   0x00000000      0x189 ./App/timer.o
- .debug_macro   0x00000000       0x5c ./App/timer.o
- .debug_macro   0x00000000      0x45c ./App/timer.o
- .debug_macro   0x00000000      0x9e9 ./App/timer.o
- .debug_macro   0x00000000      0x115 ./App/timer.o
- .debug_macro   0x00000000      0x11b ./App/timer.o
- .debug_macro   0x00000000       0xa5 ./App/timer.o
- .debug_macro   0x00000000      0x15f ./App/timer.o
- .debug_macro   0x00000000      0x287 ./App/timer.o
- .debug_macro   0x00000000       0x5f ./App/timer.o
- .debug_macro   0x00000000      0x236 ./App/timer.o
- .debug_macro   0x00000000      0x132 ./App/timer.o
- .debug_macro   0x00000000      0x264 ./App/timer.o
- .debug_macro   0x00000000       0x2e ./App/timer.o
- .debug_macro   0x00000000      0x127 ./App/timer.o
- .debug_macro   0x00000000       0x85 ./App/timer.o
- .debug_macro   0x00000000       0x89 ./App/timer.o
- .debug_macro   0x00000000      0x8ed ./App/timer.o
- .debug_macro   0x00000000       0x47 ./App/timer.o
- .debug_macro   0x00000000      0x126 ./App/timer.o
- .debug_macro   0x00000000       0x76 ./App/timer.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .group         0x00000000        0xc ./App/tm1637.o
- .text          0x00000000        0x0 ./App/tm1637.o
- .data          0x00000000        0x0 ./App/tm1637.o
- .bss           0x00000000        0x0 ./App/tm1637.o
- .debug_macro   0x00000000      0xab4 ./App/tm1637.o
- .debug_macro   0x00000000      0x295 ./App/tm1637.o
- .debug_macro   0x00000000       0x2e ./App/tm1637.o
- .debug_macro   0x00000000       0x28 ./App/tm1637.o
- .debug_macro   0x00000000       0x22 ./App/tm1637.o
- .debug_macro   0x00000000       0x8e ./App/tm1637.o
- .debug_macro   0x00000000       0x51 ./App/tm1637.o
- .debug_macro   0x00000000      0x103 ./App/tm1637.o
- .debug_macro   0x00000000       0x6a ./App/tm1637.o
- .debug_macro   0x00000000      0x1df ./App/tm1637.o
- .debug_macro   0x00000000       0x1c ./App/tm1637.o
- .debug_macro   0x00000000       0x22 ./App/tm1637.o
- .debug_macro   0x00000000       0xfb ./App/tm1637.o
- .debug_macro   0x00000000     0x1011 ./App/tm1637.o
- .debug_macro   0x00000000      0x11f ./App/tm1637.o
- .debug_macro   0x00000000     0xb953 ./App/tm1637.o
- .debug_macro   0x00000000       0x6d ./App/tm1637.o
- .debug_macro   0x00000000     0x368c ./App/tm1637.o
- .debug_macro   0x00000000      0x189 ./App/tm1637.o
- .debug_macro   0x00000000       0x5c ./App/tm1637.o
- .debug_macro   0x00000000      0x45c ./App/tm1637.o
- .debug_macro   0x00000000      0x9e9 ./App/tm1637.o
- .debug_macro   0x00000000      0x115 ./App/tm1637.o
- .debug_macro   0x00000000      0x11b ./App/tm1637.o
- .debug_macro   0x00000000       0xa5 ./App/tm1637.o
- .debug_macro   0x00000000      0x15f ./App/tm1637.o
- .debug_macro   0x00000000      0x287 ./App/tm1637.o
- .debug_macro   0x00000000       0x5f ./App/tm1637.o
- .debug_macro   0x00000000      0x236 ./App/tm1637.o
- .debug_macro   0x00000000      0x132 ./App/tm1637.o
- .debug_macro   0x00000000      0x264 ./App/tm1637.o
- .debug_macro   0x00000000       0x2e ./App/tm1637.o
- .debug_macro   0x00000000      0x127 ./App/tm1637.o
- .debug_macro   0x00000000       0x85 ./App/tm1637.o
- .debug_macro   0x00000000       0x89 ./App/tm1637.o
- .debug_macro   0x00000000      0x8ed ./App/tm1637.o
- .debug_macro   0x00000000       0x47 ./App/tm1637.o
- .debug_macro   0x00000000      0x126 ./App/tm1637.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/app.o
+ .text          0x00000000        0x0 ./App/Src/app.o
+ .data          0x00000000        0x0 ./App/Src/app.o
+ .bss           0x00000000        0x0 ./App/Src/app.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/button.o
+ .text          0x00000000        0x0 ./App/Src/button.o
+ .data          0x00000000        0x0 ./App/Src/button.o
+ .bss           0x00000000        0x0 ./App/Src/button.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/button.o
+ .debug_macro   0x00000000       0x22 ./App/Src/button.o
+ .debug_macro   0x00000000       0x8e ./App/Src/button.o
+ .debug_macro   0x00000000       0x51 ./App/Src/button.o
+ .debug_macro   0x00000000      0x103 ./App/Src/button.o
+ .debug_macro   0x00000000       0x6a ./App/Src/button.o
+ .debug_macro   0x00000000      0x1df ./App/Src/button.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/display.o
+ .text          0x00000000        0x0 ./App/Src/display.o
+ .data          0x00000000        0x0 ./App/Src/display.o
+ .bss           0x00000000        0x0 ./App/Src/display.o
+ .text.display_start
+                0x00000000       0x40 ./App/Src/display.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/display.o
+ .debug_macro   0x00000000      0x295 ./App/Src/display.o
+ .debug_macro   0x00000000       0x2e ./App/Src/display.o
+ .debug_macro   0x00000000       0x28 ./App/Src/display.o
+ .debug_macro   0x00000000       0x22 ./App/Src/display.o
+ .debug_macro   0x00000000       0x8e ./App/Src/display.o
+ .debug_macro   0x00000000       0x51 ./App/Src/display.o
+ .debug_macro   0x00000000      0x103 ./App/Src/display.o
+ .debug_macro   0x00000000       0x6a ./App/Src/display.o
+ .debug_macro   0x00000000      0x1df ./App/Src/display.o
+ .debug_macro   0x00000000       0x1c ./App/Src/display.o
+ .debug_macro   0x00000000       0x22 ./App/Src/display.o
+ .debug_macro   0x00000000       0xfb ./App/Src/display.o
+ .debug_macro   0x00000000     0x1011 ./App/Src/display.o
+ .debug_macro   0x00000000      0x11f ./App/Src/display.o
+ .debug_macro   0x00000000     0xb953 ./App/Src/display.o
+ .debug_macro   0x00000000       0x6d ./App/Src/display.o
+ .debug_macro   0x00000000     0x368c ./App/Src/display.o
+ .debug_macro   0x00000000      0x189 ./App/Src/display.o
+ .debug_macro   0x00000000       0x5c ./App/Src/display.o
+ .debug_macro   0x00000000      0x45c ./App/Src/display.o
+ .debug_macro   0x00000000      0x9e9 ./App/Src/display.o
+ .debug_macro   0x00000000      0x115 ./App/Src/display.o
+ .debug_macro   0x00000000      0x11b ./App/Src/display.o
+ .debug_macro   0x00000000       0xa5 ./App/Src/display.o
+ .debug_macro   0x00000000      0x15f ./App/Src/display.o
+ .debug_macro   0x00000000      0x287 ./App/Src/display.o
+ .debug_macro   0x00000000       0x5f ./App/Src/display.o
+ .debug_macro   0x00000000      0x236 ./App/Src/display.o
+ .debug_macro   0x00000000      0x132 ./App/Src/display.o
+ .debug_macro   0x00000000      0x264 ./App/Src/display.o
+ .debug_macro   0x00000000       0x2e ./App/Src/display.o
+ .debug_macro   0x00000000      0x127 ./App/Src/display.o
+ .debug_macro   0x00000000       0x85 ./App/Src/display.o
+ .debug_macro   0x00000000       0x89 ./App/Src/display.o
+ .debug_macro   0x00000000      0x8ed ./App/Src/display.o
+ .debug_macro   0x00000000       0x47 ./App/Src/display.o
+ .debug_macro   0x00000000      0x126 ./App/Src/display.o
+ .debug_macro   0x00000000       0x76 ./App/Src/display.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/game.o
+ .text          0x00000000        0x0 ./App/Src/game.o
+ .data          0x00000000        0x0 ./App/Src/game.o
+ .bss           0x00000000        0x0 ./App/Src/game.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/game.o
+ .debug_macro   0x00000000       0x22 ./App/Src/game.o
+ .debug_macro   0x00000000       0x8e ./App/Src/game.o
+ .debug_macro   0x00000000       0x51 ./App/Src/game.o
+ .debug_macro   0x00000000      0x103 ./App/Src/game.o
+ .debug_macro   0x00000000       0x6a ./App/Src/game.o
+ .debug_macro   0x00000000      0x1df ./App/Src/game.o
+ .debug_macro   0x00000000      0x295 ./App/Src/game.o
+ .debug_macro   0x00000000       0x2e ./App/Src/game.o
+ .debug_macro   0x00000000       0x28 ./App/Src/game.o
+ .debug_macro   0x00000000       0x1c ./App/Src/game.o
+ .debug_macro   0x00000000       0x22 ./App/Src/game.o
+ .debug_macro   0x00000000       0xfb ./App/Src/game.o
+ .debug_macro   0x00000000     0x1011 ./App/Src/game.o
+ .debug_macro   0x00000000      0x11f ./App/Src/game.o
+ .debug_macro   0x00000000     0xb953 ./App/Src/game.o
+ .debug_macro   0x00000000       0x6d ./App/Src/game.o
+ .debug_macro   0x00000000     0x368c ./App/Src/game.o
+ .debug_macro   0x00000000      0x189 ./App/Src/game.o
+ .debug_macro   0x00000000       0x5c ./App/Src/game.o
+ .debug_macro   0x00000000      0x45c ./App/Src/game.o
+ .debug_macro   0x00000000      0x9e9 ./App/Src/game.o
+ .debug_macro   0x00000000      0x115 ./App/Src/game.o
+ .debug_macro   0x00000000      0x11b ./App/Src/game.o
+ .debug_macro   0x00000000       0xa5 ./App/Src/game.o
+ .debug_macro   0x00000000      0x15f ./App/Src/game.o
+ .debug_macro   0x00000000      0x287 ./App/Src/game.o
+ .debug_macro   0x00000000       0x5f ./App/Src/game.o
+ .debug_macro   0x00000000      0x236 ./App/Src/game.o
+ .debug_macro   0x00000000      0x132 ./App/Src/game.o
+ .debug_macro   0x00000000      0x264 ./App/Src/game.o
+ .debug_macro   0x00000000       0x2e ./App/Src/game.o
+ .debug_macro   0x00000000      0x127 ./App/Src/game.o
+ .debug_macro   0x00000000       0x85 ./App/Src/game.o
+ .debug_macro   0x00000000       0x89 ./App/Src/game.o
+ .debug_macro   0x00000000      0x8ed ./App/Src/game.o
+ .debug_macro   0x00000000       0x47 ./App/Src/game.o
+ .debug_macro   0x00000000      0x126 ./App/Src/game.o
+ .debug_macro   0x00000000       0x76 ./App/Src/game.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/player.o
+ .text          0x00000000        0x0 ./App/Src/player.o
+ .data          0x00000000        0x0 ./App/Src/player.o
+ .bss           0x00000000        0x0 ./App/Src/player.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/player.o
+ .debug_macro   0x00000000       0x22 ./App/Src/player.o
+ .debug_macro   0x00000000       0x8e ./App/Src/player.o
+ .debug_macro   0x00000000       0x51 ./App/Src/player.o
+ .debug_macro   0x00000000      0x103 ./App/Src/player.o
+ .debug_macro   0x00000000       0x6a ./App/Src/player.o
+ .debug_macro   0x00000000      0x1df ./App/Src/player.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/timer.o
+ .text          0x00000000        0x0 ./App/Src/timer.o
+ .data          0x00000000        0x0 ./App/Src/timer.o
+ .bss           0x00000000        0x0 ./App/Src/timer.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x295 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x2e ./App/Src/timer.o
+ .debug_macro   0x00000000       0x28 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x22 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x8e ./App/Src/timer.o
+ .debug_macro   0x00000000       0x51 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x103 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x6a ./App/Src/timer.o
+ .debug_macro   0x00000000      0x1df ./App/Src/timer.o
+ .debug_macro   0x00000000       0x1c ./App/Src/timer.o
+ .debug_macro   0x00000000       0x22 ./App/Src/timer.o
+ .debug_macro   0x00000000       0xfb ./App/Src/timer.o
+ .debug_macro   0x00000000     0x1011 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x11f ./App/Src/timer.o
+ .debug_macro   0x00000000     0xb953 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x6d ./App/Src/timer.o
+ .debug_macro   0x00000000     0x368c ./App/Src/timer.o
+ .debug_macro   0x00000000      0x189 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x5c ./App/Src/timer.o
+ .debug_macro   0x00000000      0x45c ./App/Src/timer.o
+ .debug_macro   0x00000000      0x9e9 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x115 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x11b ./App/Src/timer.o
+ .debug_macro   0x00000000       0xa5 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x15f ./App/Src/timer.o
+ .debug_macro   0x00000000      0x287 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x5f ./App/Src/timer.o
+ .debug_macro   0x00000000      0x236 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x132 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x264 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x2e ./App/Src/timer.o
+ .debug_macro   0x00000000      0x127 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x85 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x89 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x8ed ./App/Src/timer.o
+ .debug_macro   0x00000000       0x47 ./App/Src/timer.o
+ .debug_macro   0x00000000      0x126 ./App/Src/timer.o
+ .debug_macro   0x00000000       0x76 ./App/Src/timer.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .group         0x00000000        0xc ./App/Src/tm1637.o
+ .text          0x00000000        0x0 ./App/Src/tm1637.o
+ .data          0x00000000        0x0 ./App/Src/tm1637.o
+ .bss           0x00000000        0x0 ./App/Src/tm1637.o
+ .text.tm1637SetBrightness
+                0x00000000       0x42 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0xab4 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x22 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x8e ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x51 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x103 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x6a ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x1df ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x295 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x2e ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x28 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x1c ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x22 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0xfb ./App/Src/tm1637.o
+ .debug_macro   0x00000000     0x1011 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x11f ./App/Src/tm1637.o
+ .debug_macro   0x00000000     0xb953 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x6d ./App/Src/tm1637.o
+ .debug_macro   0x00000000     0x368c ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x189 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x5c ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x45c ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x9e9 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x115 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x11b ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0xa5 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x15f ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x287 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x5f ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x236 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x132 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x264 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x2e ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x127 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x85 ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x89 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x8ed ./App/Src/tm1637.o
+ .debug_macro   0x00000000       0x47 ./App/Src/tm1637.o
+ .debug_macro   0x00000000      0x126 ./App/Src/tm1637.o
  .group         0x00000000        0xc ./Core/Src/main.o
  .group         0x00000000        0xc ./Core/Src/main.o
  .group         0x00000000        0xc ./Core/Src/main.o
@@ -3193,12 +3153,13 @@ Linker script and memory map
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
-LOAD ./App/app.o
-LOAD ./App/button.o
-LOAD ./App/game.o
-LOAD ./App/player.o
-LOAD ./App/timer.o
-LOAD ./App/tm1637.o
+LOAD ./App/Src/app.o
+LOAD ./App/Src/button.o
+LOAD ./App/Src/display.o
+LOAD ./App/Src/game.o
+LOAD ./App/Src/player.o
+LOAD ./App/Src/timer.o
+LOAD ./App/Src/tm1637.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/stm32f4xx_hal_msp.o
 LOAD ./Core/Src/stm32f4xx_it.o
@@ -3252,7 +3213,7 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x08000000                g_pfnVectors
                 0x08000198                        . = ALIGN (0x4)
 
-.text           0x08000198     0x2810
+.text           0x08000198     0x281c
                 0x08000198                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000198       0x40 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -3265,415 +3226,418 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x080004c4                __aeabi_idiv0
  *(.text*)
  .text.tim_callback
-                0x080004c8       0x28 ./App/app.o
+                0x080004c8       0x28 ./App/Src/app.o
                 0x080004c8                tim_callback
  .text.btn_callback
-                0x080004f0       0x48 ./App/app.o
+                0x080004f0       0x48 ./App/Src/app.o
                 0x080004f0                btn_callback
- .text.setup    0x08000538       0xe0 ./App/app.o
+ .text.setup    0x08000538       0x94 ./App/Src/app.o
                 0x08000538                setup
- .text.loop     0x08000618        0xe ./App/app.o
-                0x08000618                loop
- *fill*         0x08000626        0x2 
+ .text.loop     0x080005cc        0xe ./App/Src/app.o
+                0x080005cc                loop
+ *fill*         0x080005da        0x2 
  .text.button_attach_callback
-                0x08000628       0x20 ./App/button.o
-                0x08000628                button_attach_callback
+                0x080005dc       0x20 ./App/Src/button.o
+                0x080005dc                button_attach_callback
  .text.HAL_GPIO_EXTI_Callback
-                0x08000648       0x5c ./App/button.o
-                0x08000648                HAL_GPIO_EXTI_Callback
+                0x080005fc       0x5c ./App/Src/button.o
+                0x080005fc                HAL_GPIO_EXTI_Callback
+ .text.display_init
+                0x08000658       0x50 ./App/Src/display.o
+                0x08000658                display_init
+ .text.display_show
+                0x080006a8       0x48 ./App/Src/display.o
+                0x080006a8                display_show
  .text.game_init
-                0x080006a4       0x86 ./App/game.o
-                0x080006a4                game_init
+                0x080006f0       0x88 ./App/Src/game.o
+                0x080006f0                game_init
  .text.game_start
-                0x0800072a       0x30 ./App/game.o
-                0x0800072a                game_start
+                0x08000778       0x30 ./App/Src/game.o
+                0x08000778                game_start
  .text.game_stop
-                0x0800075a       0x1c ./App/game.o
-                0x0800075a                game_stop
+                0x080007a8       0x1c ./App/Src/game.o
+                0x080007a8                game_stop
  .text.game_change_active_player
-                0x08000776       0x3e ./App/game.o
-                0x08000776                game_change_active_player
+                0x080007c4       0x3e ./App/Src/game.o
+                0x080007c4                game_change_active_player
  .text.game_update
-                0x080007b4       0x80 ./App/game.o
-                0x080007b4                game_update
+                0x08000802       0x80 ./App/Src/game.o
+                0x08000802                game_update
  .text.player_init
-                0x08000834       0x4c ./App/player.o
-                0x08000834                player_init
+                0x08000882       0x44 ./App/Src/player.o
+                0x08000882                player_init
  .text.player_time_restart
-                0x08000880       0x24 ./App/player.o
-                0x08000880                player_time_restart
+                0x080008c6       0x24 ./App/Src/player.o
+                0x080008c6                player_time_restart
  .text.player_time_ended
-                0x080008a4       0x38 ./App/player.o
-                0x080008a4                player_time_ended
+                0x080008ea       0x38 ./App/Src/player.o
+                0x080008ea                player_time_ended
  .text.player_time_dec
-                0x080008dc       0x38 ./App/player.o
-                0x080008dc                player_time_dec
+                0x08000922       0x38 ./App/Src/player.o
+                0x08000922                player_time_dec
  .text.player_display_curr
-                0x08000914       0x3a ./App/player.o
-                0x08000914                player_display_curr
- *fill*         0x0800094e        0x2 
+                0x0800095a       0x2e ./App/Src/player.o
+                0x0800095a                player_display_curr
  .text.timer_start
-                0x08000950       0x28 ./App/timer.o
-                0x08000950                timer_start
+                0x08000988       0x28 ./App/Src/timer.o
+                0x08000988                timer_start
  .text.timer_stop
-                0x08000978       0x28 ./App/timer.o
-                0x08000978                timer_stop
+                0x080009b0       0x28 ./App/Src/timer.o
+                0x080009b0                timer_stop
  .text.timer_restart
-                0x080009a0       0x2c ./App/timer.o
-                0x080009a0                timer_restart
+                0x080009d8       0x2c ./App/Src/timer.o
+                0x080009d8                timer_restart
  .text.timer_attach_callback
-                0x080009cc       0x20 ./App/timer.o
-                0x080009cc                timer_attach_callback
+                0x08000a04       0x20 ./App/Src/timer.o
+                0x08000a04                timer_attach_callback
  .text.HAL_TIM_PeriodElapsedCallback
-                0x080009ec       0x34 ./App/timer.o
-                0x080009ec                HAL_TIM_PeriodElapsedCallback
+                0x08000a24       0x34 ./App/Src/timer.o
+                0x08000a24                HAL_TIM_PeriodElapsedCallback
  .text.tm1637Init
-                0x08000a20       0x1e ./App/tm1637.o
-                0x08000a20                tm1637Init
- *fill*         0x08000a3e        0x2 
+                0x08000a58       0x32 ./App/Src/tm1637.o
+                0x08000a58                tm1637Init
+ *fill*         0x08000a8a        0x2 
  .text.tm1637DisplayDecimal
-                0x08000a40      0x114 ./App/tm1637.o
-                0x08000a40                tm1637DisplayDecimal
- .text.tm1637SetBrightness
-                0x08000b54       0x42 ./App/tm1637.o
-                0x08000b54                tm1637SetBrightness
+                0x08000a8c      0x114 ./App/Src/tm1637.o
+                0x08000a8c                tm1637DisplayDecimal
  .text._tm1637Start
-                0x08000b96       0x38 ./App/tm1637.o
-                0x08000b96                _tm1637Start
+                0x08000ba0       0x38 ./App/Src/tm1637.o
+                0x08000ba0                _tm1637Start
  .text._tm1637Stop
-                0x08000bce       0x4e ./App/tm1637.o
-                0x08000bce                _tm1637Stop
+                0x08000bd8       0x4e ./App/Src/tm1637.o
+                0x08000bd8                _tm1637Stop
  .text._tm1637ReadResult
-                0x08000c1c       0x3e ./App/tm1637.o
-                0x08000c1c                _tm1637ReadResult
+                0x08000c26       0x3e ./App/Src/tm1637.o
+                0x08000c26                _tm1637ReadResult
  .text._tm1637WriteByte
-                0x08000c5a       0x70 ./App/tm1637.o
-                0x08000c5a                _tm1637WriteByte
+                0x08000c64       0x70 ./App/Src/tm1637.o
+                0x08000c64                _tm1637WriteByte
  .text._tm1637DelayUsec
-                0x08000cca       0x38 ./App/tm1637.o
-                0x08000cca                _tm1637DelayUsec
+                0x08000cd4       0x38 ./App/Src/tm1637.o
+                0x08000cd4                _tm1637DelayUsec
  .text._tm1637ClkHigh
-                0x08000d02       0x20 ./App/tm1637.o
-                0x08000d02                _tm1637ClkHigh
+                0x08000d0c       0x20 ./App/Src/tm1637.o
+                0x08000d0c                _tm1637ClkHigh
  .text._tm1637ClkLow
-                0x08000d22       0x20 ./App/tm1637.o
-                0x08000d22                _tm1637ClkLow
+                0x08000d2c       0x20 ./App/Src/tm1637.o
+                0x08000d2c                _tm1637ClkLow
  .text._tm1637DioHigh
-                0x08000d42       0x20 ./App/tm1637.o
-                0x08000d42                _tm1637DioHigh
+                0x08000d4c       0x20 ./App/Src/tm1637.o
+                0x08000d4c                _tm1637DioHigh
  .text._tm1637DioLow
-                0x08000d62       0x20 ./App/tm1637.o
-                0x08000d62                _tm1637DioLow
- .text.main     0x08000d82       0x1e ./Core/Src/main.o
-                0x08000d82                main
+                0x08000d6c       0x20 ./App/Src/tm1637.o
+                0x08000d6c                _tm1637DioLow
+ .text.main     0x08000d8c       0x1e ./Core/Src/main.o
+                0x08000d8c                main
+ *fill*         0x08000daa        0x2 
  .text.SystemClock_Config
-                0x08000da0       0xbc ./Core/Src/main.o
-                0x08000da0                SystemClock_Config
+                0x08000dac       0xbc ./Core/Src/main.o
+                0x08000dac                SystemClock_Config
  .text.MX_TIM2_Init
-                0x08000e5c       0x9c ./Core/Src/main.o
+                0x08000e68       0x9c ./Core/Src/main.o
  .text.MX_GPIO_Init
-                0x08000ef8      0x100 ./Core/Src/main.o
+                0x08000f04      0x100 ./Core/Src/main.o
  .text.Error_Handler
-                0x08000ff8        0xc ./Core/Src/main.o
-                0x08000ff8                Error_Handler
+                0x08001004        0xc ./Core/Src/main.o
+                0x08001004                Error_Handler
  .text.HAL_MspInit
-                0x08001004       0x50 ./Core/Src/stm32f4xx_hal_msp.o
-                0x08001004                HAL_MspInit
+                0x08001010       0x50 ./Core/Src/stm32f4xx_hal_msp.o
+                0x08001010                HAL_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x08001054       0x4c ./Core/Src/stm32f4xx_hal_msp.o
-                0x08001054                HAL_TIM_Base_MspInit
+                0x08001060       0x4c ./Core/Src/stm32f4xx_hal_msp.o
+                0x08001060                HAL_TIM_Base_MspInit
  .text.NMI_Handler
-                0x080010a0        0x8 ./Core/Src/stm32f4xx_it.o
-                0x080010a0                NMI_Handler
+                0x080010ac        0x8 ./Core/Src/stm32f4xx_it.o
+                0x080010ac                NMI_Handler
  .text.HardFault_Handler
-                0x080010a8        0x8 ./Core/Src/stm32f4xx_it.o
-                0x080010a8                HardFault_Handler
+                0x080010b4        0x8 ./Core/Src/stm32f4xx_it.o
+                0x080010b4                HardFault_Handler
  .text.MemManage_Handler
-                0x080010b0        0x8 ./Core/Src/stm32f4xx_it.o
-                0x080010b0                MemManage_Handler
+                0x080010bc        0x8 ./Core/Src/stm32f4xx_it.o
+                0x080010bc                MemManage_Handler
  .text.BusFault_Handler
-                0x080010b8        0x8 ./Core/Src/stm32f4xx_it.o
-                0x080010b8                BusFault_Handler
+                0x080010c4        0x8 ./Core/Src/stm32f4xx_it.o
+                0x080010c4                BusFault_Handler
  .text.UsageFault_Handler
-                0x080010c0        0x8 ./Core/Src/stm32f4xx_it.o
-                0x080010c0                UsageFault_Handler
+                0x080010cc        0x8 ./Core/Src/stm32f4xx_it.o
+                0x080010cc                UsageFault_Handler
  .text.SVC_Handler
-                0x080010c8        0xe ./Core/Src/stm32f4xx_it.o
-                0x080010c8                SVC_Handler
+                0x080010d4        0xe ./Core/Src/stm32f4xx_it.o
+                0x080010d4                SVC_Handler
  .text.DebugMon_Handler
-                0x080010d6        0xe ./Core/Src/stm32f4xx_it.o
-                0x080010d6                DebugMon_Handler
+                0x080010e2        0xe ./Core/Src/stm32f4xx_it.o
+                0x080010e2                DebugMon_Handler
  .text.PendSV_Handler
-                0x080010e4        0xe ./Core/Src/stm32f4xx_it.o
-                0x080010e4                PendSV_Handler
+                0x080010f0        0xe ./Core/Src/stm32f4xx_it.o
+                0x080010f0                PendSV_Handler
  .text.SysTick_Handler
-                0x080010f2        0xc ./Core/Src/stm32f4xx_it.o
-                0x080010f2                SysTick_Handler
- *fill*         0x080010fe        0x2 
+                0x080010fe        0xc ./Core/Src/stm32f4xx_it.o
+                0x080010fe                SysTick_Handler
+ *fill*         0x0800110a        0x2 
  .text.TIM2_IRQHandler
-                0x08001100       0x14 ./Core/Src/stm32f4xx_it.o
-                0x08001100                TIM2_IRQHandler
+                0x0800110c       0x14 ./Core/Src/stm32f4xx_it.o
+                0x0800110c                TIM2_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x08001114       0x20 ./Core/Src/stm32f4xx_it.o
-                0x08001114                EXTI15_10_IRQHandler
+                0x08001120       0x20 ./Core/Src/stm32f4xx_it.o
+                0x08001120                EXTI15_10_IRQHandler
  .text.SystemInit
-                0x08001134       0x24 ./Core/Src/system_stm32f4xx.o
-                0x08001134                SystemInit
+                0x08001140       0x24 ./Core/Src/system_stm32f4xx.o
+                0x08001140                SystemInit
  .text.Reset_Handler
-                0x08001158       0x50 ./Core/Startup/startup_stm32f411ceux.o
-                0x08001158                Reset_Handler
+                0x08001164       0x50 ./Core/Startup/startup_stm32f411ceux.o
+                0x08001164                Reset_Handler
  .text.Default_Handler
-                0x080011a8        0x2 ./Core/Startup/startup_stm32f411ceux.o
-                0x080011a8                RTC_Alarm_IRQHandler
-                0x080011a8                EXTI2_IRQHandler
-                0x080011a8                SPI4_IRQHandler
-                0x080011a8                TIM1_CC_IRQHandler
-                0x080011a8                DMA2_Stream5_IRQHandler
-                0x080011a8                DMA1_Stream5_IRQHandler
-                0x080011a8                PVD_IRQHandler
-                0x080011a8                SDIO_IRQHandler
-                0x080011a8                TAMP_STAMP_IRQHandler
-                0x080011a8                EXTI3_IRQHandler
-                0x080011a8                TIM1_UP_TIM10_IRQHandler
-                0x080011a8                I2C3_ER_IRQHandler
-                0x080011a8                EXTI0_IRQHandler
-                0x080011a8                I2C2_EV_IRQHandler
-                0x080011a8                DMA1_Stream2_IRQHandler
-                0x080011a8                FPU_IRQHandler
-                0x080011a8                DMA2_Stream2_IRQHandler
-                0x080011a8                SPI1_IRQHandler
-                0x080011a8                TIM1_BRK_TIM9_IRQHandler
-                0x080011a8                DMA2_Stream3_IRQHandler
-                0x080011a8                USART6_IRQHandler
-                0x080011a8                DMA2_Stream0_IRQHandler
-                0x080011a8                TIM4_IRQHandler
-                0x080011a8                I2C1_EV_IRQHandler
-                0x080011a8                DMA1_Stream6_IRQHandler
-                0x080011a8                DMA1_Stream1_IRQHandler
-                0x080011a8                TIM3_IRQHandler
-                0x080011a8                RCC_IRQHandler
-                0x080011a8                Default_Handler
-                0x080011a8                ADC_IRQHandler
-                0x080011a8                DMA1_Stream7_IRQHandler
-                0x080011a8                SPI5_IRQHandler
-                0x080011a8                TIM5_IRQHandler
-                0x080011a8                DMA2_Stream7_IRQHandler
-                0x080011a8                I2C3_EV_IRQHandler
-                0x080011a8                EXTI9_5_IRQHandler
-                0x080011a8                RTC_WKUP_IRQHandler
-                0x080011a8                SPI2_IRQHandler
-                0x080011a8                DMA1_Stream0_IRQHandler
-                0x080011a8                EXTI4_IRQHandler
-                0x080011a8                WWDG_IRQHandler
-                0x080011a8                OTG_FS_WKUP_IRQHandler
-                0x080011a8                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080011a8                EXTI1_IRQHandler
-                0x080011a8                USART2_IRQHandler
-                0x080011a8                I2C2_ER_IRQHandler
-                0x080011a8                DMA2_Stream1_IRQHandler
-                0x080011a8                FLASH_IRQHandler
-                0x080011a8                DMA2_Stream4_IRQHandler
-                0x080011a8                USART1_IRQHandler
-                0x080011a8                OTG_FS_IRQHandler
-                0x080011a8                SPI3_IRQHandler
-                0x080011a8                DMA1_Stream4_IRQHandler
-                0x080011a8                I2C1_ER_IRQHandler
-                0x080011a8                DMA2_Stream6_IRQHandler
-                0x080011a8                DMA1_Stream3_IRQHandler
- *fill*         0x080011aa        0x2 
+                0x080011b4        0x2 ./Core/Startup/startup_stm32f411ceux.o
+                0x080011b4                RTC_Alarm_IRQHandler
+                0x080011b4                EXTI2_IRQHandler
+                0x080011b4                SPI4_IRQHandler
+                0x080011b4                TIM1_CC_IRQHandler
+                0x080011b4                DMA2_Stream5_IRQHandler
+                0x080011b4                DMA1_Stream5_IRQHandler
+                0x080011b4                PVD_IRQHandler
+                0x080011b4                SDIO_IRQHandler
+                0x080011b4                TAMP_STAMP_IRQHandler
+                0x080011b4                EXTI3_IRQHandler
+                0x080011b4                TIM1_UP_TIM10_IRQHandler
+                0x080011b4                I2C3_ER_IRQHandler
+                0x080011b4                EXTI0_IRQHandler
+                0x080011b4                I2C2_EV_IRQHandler
+                0x080011b4                DMA1_Stream2_IRQHandler
+                0x080011b4                FPU_IRQHandler
+                0x080011b4                DMA2_Stream2_IRQHandler
+                0x080011b4                SPI1_IRQHandler
+                0x080011b4                TIM1_BRK_TIM9_IRQHandler
+                0x080011b4                DMA2_Stream3_IRQHandler
+                0x080011b4                USART6_IRQHandler
+                0x080011b4                DMA2_Stream0_IRQHandler
+                0x080011b4                TIM4_IRQHandler
+                0x080011b4                I2C1_EV_IRQHandler
+                0x080011b4                DMA1_Stream6_IRQHandler
+                0x080011b4                DMA1_Stream1_IRQHandler
+                0x080011b4                TIM3_IRQHandler
+                0x080011b4                RCC_IRQHandler
+                0x080011b4                Default_Handler
+                0x080011b4                ADC_IRQHandler
+                0x080011b4                DMA1_Stream7_IRQHandler
+                0x080011b4                SPI5_IRQHandler
+                0x080011b4                TIM5_IRQHandler
+                0x080011b4                DMA2_Stream7_IRQHandler
+                0x080011b4                I2C3_EV_IRQHandler
+                0x080011b4                EXTI9_5_IRQHandler
+                0x080011b4                RTC_WKUP_IRQHandler
+                0x080011b4                SPI2_IRQHandler
+                0x080011b4                DMA1_Stream0_IRQHandler
+                0x080011b4                EXTI4_IRQHandler
+                0x080011b4                WWDG_IRQHandler
+                0x080011b4                OTG_FS_WKUP_IRQHandler
+                0x080011b4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080011b4                EXTI1_IRQHandler
+                0x080011b4                USART2_IRQHandler
+                0x080011b4                I2C2_ER_IRQHandler
+                0x080011b4                DMA2_Stream1_IRQHandler
+                0x080011b4                FLASH_IRQHandler
+                0x080011b4                DMA2_Stream4_IRQHandler
+                0x080011b4                USART1_IRQHandler
+                0x080011b4                OTG_FS_IRQHandler
+                0x080011b4                SPI3_IRQHandler
+                0x080011b4                DMA1_Stream4_IRQHandler
+                0x080011b4                I2C1_ER_IRQHandler
+                0x080011b4                DMA2_Stream6_IRQHandler
+                0x080011b4                DMA1_Stream3_IRQHandler
+ *fill*         0x080011b6        0x2 
  .text.HAL_Init
-                0x080011ac       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x080011ac                HAL_Init
+                0x080011b8       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x080011b8                HAL_Init
  .text.HAL_InitTick
-                0x080011f0       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x080011f0                HAL_InitTick
+                0x080011fc       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x080011fc                HAL_InitTick
  .text.HAL_IncTick
-                0x08001250       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x08001250                HAL_IncTick
+                0x0800125c       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x0800125c                HAL_IncTick
  .text.HAL_GetTick
-                0x08001278       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x08001278                HAL_GetTick
+                0x08001284       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x08001284                HAL_GetTick
  .text.__NVIC_SetPriorityGrouping
-                0x08001290       0x48 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x0800129c       0x48 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.__NVIC_GetPriorityGrouping
-                0x080012d8       0x1c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x080012e4       0x1c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.__NVIC_EnableIRQ
-                0x080012f4       0x3c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x08001300       0x3c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.__NVIC_SetPriority
-                0x08001330       0x54 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x0800133c       0x54 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.NVIC_EncodePriority
-                0x08001384       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- *fill*         0x080013ea        0x2 
+                0x08001390       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ *fill*         0x080013f6        0x2 
  .text.SysTick_Config
-                0x080013ec       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x080013f8       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001430       0x16 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                0x08001430                HAL_NVIC_SetPriorityGrouping
+                0x0800143c       0x16 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x0800143c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001446       0x38 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                0x08001446                HAL_NVIC_SetPriority
+                0x08001452       0x38 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x08001452                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800147e       0x1c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                0x0800147e                HAL_NVIC_EnableIRQ
+                0x0800148a       0x1c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x0800148a                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0800149a       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                0x0800149a                HAL_SYSTICK_Config
- *fill*         0x080014b2        0x2 
+                0x080014a6       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x080014a6                HAL_SYSTICK_Config
+ *fill*         0x080014be        0x2 
  .text.HAL_GPIO_Init
-                0x080014b4      0x308 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                0x080014b4                HAL_GPIO_Init
+                0x080014c0      0x308 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x080014c0                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x080017bc       0x32 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                0x080017bc                HAL_GPIO_WritePin
- *fill*         0x080017ee        0x2 
+                0x080017c8       0x32 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x080017c8                HAL_GPIO_WritePin
+ *fill*         0x080017fa        0x2 
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x080017f0       0x30 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                0x080017f0                HAL_GPIO_EXTI_IRQHandler
+                0x080017fc       0x30 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x080017fc                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_RCC_OscConfig
-                0x08001820      0x4f0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
-                0x08001820                HAL_RCC_OscConfig
+                0x0800182c      0x4f0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x0800182c                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001d10      0x1cc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
-                0x08001d10                HAL_RCC_ClockConfig
+                0x08001d1c      0x1cc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x08001d1c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001edc      0x18c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
-                0x08001edc                HAL_RCC_GetSysClockFreq
+                0x08001ee8      0x18c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x08001ee8                HAL_RCC_GetSysClockFreq
  .text.HAL_TIM_Base_Init
-                0x08002068       0x9e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x08002068                HAL_TIM_Base_Init
- *fill*         0x08002106        0x2 
+                0x08002074       0x9e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x08002074                HAL_TIM_Base_Init
+ *fill*         0x08002112        0x2 
  .text.HAL_TIM_Base_Start_IT
-                0x08002108       0xc4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x08002108                HAL_TIM_Base_Start_IT
+                0x08002114       0xc4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x08002114                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_Base_Stop_IT
-                0x080021cc       0x5e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080021cc                HAL_TIM_Base_Stop_IT
+                0x080021d8       0x5e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080021d8                HAL_TIM_Base_Stop_IT
  .text.HAL_TIM_IRQHandler
-                0x0800222a      0x1e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x0800222a                HAL_TIM_IRQHandler
+                0x08002236      0x1e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x08002236                HAL_TIM_IRQHandler
  .text.HAL_TIM_ConfigClockSource
-                0x0800240a      0x18e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x0800240a                HAL_TIM_ConfigClockSource
+                0x08002416      0x18e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x08002416                HAL_TIM_ConfigClockSource
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x08002598       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x08002598                HAL_TIM_OC_DelayElapsedCallback
+                0x080025a4       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080025a4                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x080025ac       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080025ac                HAL_TIM_IC_CaptureCallback
+                0x080025b8       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080025b8                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x080025c0       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080025c0                HAL_TIM_PWM_PulseFinishedCallback
+                0x080025cc       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080025cc                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x080025d4       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080025d4                HAL_TIM_TriggerCallback
+                0x080025e0       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080025e0                HAL_TIM_TriggerCallback
  .text.TIM_Base_SetConfig
-                0x080025e8      0x118 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080025e8                TIM_Base_SetConfig
+                0x080025f4      0x118 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080025f4                TIM_Base_SetConfig
  .text.TIM_TI1_ConfigInputStage
-                0x08002700       0x5e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x0800270c       0x5e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .text.TIM_TI2_ConfigInputStage
-                0x0800275e       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x0800276a       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .text.TIM_ITRx_SetConfig
-                0x080027be       0x36 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x080027ca       0x36 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .text.TIM_ETR_SetConfig
-                0x080027f4       0x40 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                0x080027f4                TIM_ETR_SetConfig
+                0x08002800       0x40 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x08002800                TIM_ETR_SetConfig
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08002834       0xdc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
-                0x08002834                HAL_TIMEx_MasterConfigSynchronization
+                0x08002840       0xdc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x08002840                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x08002910       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
-                0x08002910                HAL_TIMEx_CommutCallback
+                0x0800291c       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x0800291c                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x08002924       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
-                0x08002924                HAL_TIMEx_BreakCallback
- .text.memset   0x08002938       0x10 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
-                0x08002938                memset
+                0x08002930       0x14 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x08002930                HAL_TIMEx_BreakCallback
+ .text.memset   0x08002944       0x10 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x08002944                memset
  .text.__libc_init_array
-                0x08002948       0x48 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
-                0x08002948                __libc_init_array
+                0x08002954       0x48 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                0x08002954                __libc_init_array
  *(.glue_7)
- .glue_7        0x08002990        0x0 linker stubs
+ .glue_7        0x0800299c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08002990        0x0 linker stubs
+ .glue_7t       0x0800299c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08002990        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0800299c        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08002990        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08002990                _init
- .init          0x08002994        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0800299c        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800299c                _init
+ .init          0x080029a0        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0800299c        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800299c                _fini
- .fini          0x080029a0        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x080029a8                        . = ALIGN (0x4)
-                0x080029a8                        _etext = .
+ .fini          0x080029a8        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080029a8                _fini
+ .fini          0x080029ac        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080029b4                        . = ALIGN (0x4)
+                0x080029b4                        _etext = .
 
-.vfp11_veneer   0x080029a8        0x0
- .vfp11_veneer  0x080029a8        0x0 linker stubs
+.vfp11_veneer   0x080029b4        0x0
+ .vfp11_veneer  0x080029b4        0x0 linker stubs
 
-.v4_bx          0x080029a8        0x0
- .v4_bx         0x080029a8        0x0 linker stubs
+.v4_bx          0x080029b4        0x0
+ .v4_bx         0x080029b4        0x0 linker stubs
 
-.iplt           0x080029a8        0x0
- .iplt          0x080029a8        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x080029b4        0x0
+ .iplt          0x080029b4        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x080029a8       0x24
-                0x080029a8                        . = ALIGN (0x4)
+.rodata         0x080029b4       0x24
+                0x080029b4                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.segmentMap
-                0x080029a8       0x11 ./App/tm1637.o
-                0x080029a8                segmentMap
- *fill*         0x080029b9        0x3 
+                0x080029b4       0x11 ./App/Src/tm1637.o
+                0x080029b4                segmentMap
+ *fill*         0x080029c5        0x3 
  .rodata.AHBPrescTable
-                0x080029bc       0x10 ./Core/Src/system_stm32f4xx.o
-                0x080029bc                AHBPrescTable
-                0x080029cc                        . = ALIGN (0x4)
+                0x080029c8       0x10 ./Core/Src/system_stm32f4xx.o
+                0x080029c8                AHBPrescTable
+                0x080029d8                        . = ALIGN (0x4)
 
-.ARM.extab      0x080029cc        0x0
-                0x080029cc                        . = ALIGN (0x4)
+.ARM.extab      0x080029d8        0x0
+                0x080029d8                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080029cc                        . = ALIGN (0x4)
+                0x080029d8                        . = ALIGN (0x4)
 
-.ARM            0x080029cc        0x8
-                0x080029cc                        . = ALIGN (0x4)
-                0x080029cc                        __exidx_start = .
+.ARM            0x080029d8        0x8
+                0x080029d8                        . = ALIGN (0x4)
+                0x080029d8                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x080029cc        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x080029d4                        __exidx_end = .
-                0x080029d4                        . = ALIGN (0x4)
+ .ARM.exidx     0x080029d8        0x8 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x080029e0                        __exidx_end = .
+                0x080029e0                        . = ALIGN (0x4)
 
-.rel.dyn        0x080029d4        0x0
- .rel.iplt      0x080029d4        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x080029e0        0x0
+ .rel.iplt      0x080029e0        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x080029d4        0x0
-                0x080029d4                        . = ALIGN (0x4)
-                0x080029d4                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080029e0        0x0
+                0x080029e0                        . = ALIGN (0x4)
+                0x080029e0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080029d4                        PROVIDE (__preinit_array_end = .)
-                0x080029d4                        . = ALIGN (0x4)
+                0x080029e0                        PROVIDE (__preinit_array_end = .)
+                0x080029e0                        . = ALIGN (0x4)
 
-.init_array     0x080029d4        0x4
-                0x080029d4                        . = ALIGN (0x4)
-                0x080029d4                        PROVIDE (__init_array_start = .)
+.init_array     0x080029e0        0x4
+                0x080029e0                        . = ALIGN (0x4)
+                0x080029e0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080029d4        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080029d8                        PROVIDE (__init_array_end = .)
-                0x080029d8                        . = ALIGN (0x4)
+ .init_array    0x080029e0        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x080029e4                        PROVIDE (__init_array_end = .)
+                0x080029e4                        . = ALIGN (0x4)
 
-.fini_array     0x080029d8        0x4
-                0x080029d8                        . = ALIGN (0x4)
+.fini_array     0x080029e4        0x4
+                0x080029e4                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080029d8        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x080029e4        0x4 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080029dc                        . = ALIGN (0x4)
-                0x080029dc                        _sidata = LOADADDR (.data)
+                0x080029e8                        . = ALIGN (0x4)
+                0x080029e8                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x080029dc
+.data           0x20000000        0xc load address 0x080029e8
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3693,52 +3657,52 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  *fill*         0x20000009        0x3 
                 0x2000000c                        _edata = .
 
-.igot.plt       0x2000000c        0x0 load address 0x080029e8
+.igot.plt       0x2000000c        0x0 load address 0x080029f4
  .igot.plt      0x2000000c        0x0 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x2000000c                        . = ALIGN (0x4)
 
-.bss            0x2000000c      0x110 load address 0x080029e8
+.bss            0x2000000c       0xf0 load address 0x080029f4
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.bss)
  .bss           0x2000000c       0x1c /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
- .bss.player1   0x20000028       0x20 ./App/app.o
+ .bss.player1   0x20000028       0x18 ./App/Src/app.o
                 0x20000028                player1
- .bss.player2   0x20000048       0x20 ./App/app.o
-                0x20000048                player2
- .bss.display1  0x20000068        0xc ./App/app.o
-                0x20000068                display1
- .bss.display2  0x20000074        0xc ./App/app.o
-                0x20000074                display2
- .bss.game      0x20000080       0x48 ./App/app.o
-                0x20000080                game
+ .bss.player2   0x20000040       0x18 ./App/Src/app.o
+                0x20000040                player2
+ .bss.game      0x20000058       0x38 ./App/Src/app.o
+                0x20000058                game
  .bss.button_callback
-                0x200000c8        0x4 ./App/button.o
-                0x200000c8                button_callback
+                0x20000090        0x4 ./App/Src/button.o
+                0x20000090                button_callback
+ .bss.display1  0x20000094        0xc ./App/Src/display.o
+                0x20000094                display1
+ .bss.display2  0x200000a0        0xc ./App/Src/display.o
+                0x200000a0                display2
  .bss.timer_callback
-                0x200000cc        0x4 ./App/timer.o
-                0x200000cc                timer_callback
- .bss.htim2     0x200000d0       0x48 ./Core/Src/main.o
-                0x200000d0                htim2
- .bss.uwTick    0x20000118        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x20000118                uwTick
+                0x200000ac        0x4 ./App/Src/timer.o
+                0x200000ac                timer_callback
+ .bss.htim2     0x200000b0       0x48 ./Core/Src/main.o
+                0x200000b0                htim2
+ .bss.uwTick    0x200000f8        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x200000f8                uwTick
  *(COMMON)
-                0x2000011c                        . = ALIGN (0x4)
-                0x2000011c                        _ebss = .
-                0x2000011c                        __bss_end__ = _ebss
+                0x200000fc                        . = ALIGN (0x4)
+                0x200000fc                        _ebss = .
+                0x200000fc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x2000011c      0x604 load address 0x080029e8
-                0x20000120                        . = ALIGN (0x8)
- *fill*         0x2000011c        0x4 
+                0x200000fc      0x604 load address 0x080029f4
+                0x20000100                        . = ALIGN (0x8)
+ *fill*         0x200000fc        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x20000120                        PROVIDE (_end = .)
-                0x20000320                        . = (. + _Min_Heap_Size)
- *fill*         0x20000120      0x200 
-                0x20000720                        . = (. + _Min_Stack_Size)
- *fill*         0x20000320      0x400 
-                0x20000720                        . = ALIGN (0x8)
+                0x20000100                        PROVIDE (_end = .)
+                0x20000300                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000100      0x200 
+                0x20000700                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000300      0x400 
+                0x20000700                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3753,289 +3717,301 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .ARM.attributes
                 0x00000022       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .ARM.attributes
-                0x00000056       0x34 ./App/app.o
+                0x00000056       0x34 ./App/Src/app.o
  .ARM.attributes
-                0x0000008a       0x34 ./App/button.o
+                0x0000008a       0x34 ./App/Src/button.o
  .ARM.attributes
-                0x000000be       0x34 ./App/game.o
+                0x000000be       0x34 ./App/Src/display.o
  .ARM.attributes
-                0x000000f2       0x34 ./App/player.o
+                0x000000f2       0x34 ./App/Src/game.o
  .ARM.attributes
-                0x00000126       0x34 ./App/timer.o
+                0x00000126       0x34 ./App/Src/player.o
  .ARM.attributes
-                0x0000015a       0x34 ./App/tm1637.o
+                0x0000015a       0x34 ./App/Src/timer.o
  .ARM.attributes
-                0x0000018e       0x34 ./Core/Src/main.o
+                0x0000018e       0x34 ./App/Src/tm1637.o
  .ARM.attributes
-                0x000001c2       0x34 ./Core/Src/stm32f4xx_hal_msp.o
+                0x000001c2       0x34 ./Core/Src/main.o
  .ARM.attributes
-                0x000001f6       0x34 ./Core/Src/stm32f4xx_it.o
+                0x000001f6       0x34 ./Core/Src/stm32f4xx_hal_msp.o
  .ARM.attributes
-                0x0000022a       0x34 ./Core/Src/system_stm32f4xx.o
+                0x0000022a       0x34 ./Core/Src/stm32f4xx_it.o
  .ARM.attributes
-                0x0000025e       0x21 ./Core/Startup/startup_stm32f411ceux.o
+                0x0000025e       0x34 ./Core/Src/system_stm32f4xx.o
  .ARM.attributes
-                0x0000027f       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x00000292       0x21 ./Core/Startup/startup_stm32f411ceux.o
  .ARM.attributes
-                0x000002b3       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x000002b3       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .ARM.attributes
-                0x000002e7       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x000002e7       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .ARM.attributes
-                0x0000031b       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x0000031b       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .ARM.attributes
-                0x0000034f       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x0000034f       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .ARM.attributes
-                0x00000383       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x00000383       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .ARM.attributes
-                0x000003b7       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x000003b7       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .ARM.attributes
-                0x000003eb       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                0x000003eb       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x0000041f       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0000041f       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x00000441       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000453       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000475       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x00000475       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00000497       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000004a9       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000004cb       0x22 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(relogio_digital_xadrez.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_info     0x00000000     0xa36a
- .debug_info    0x00000000      0x4a3 ./App/app.o
- .debug_info    0x000004a3      0x126 ./App/button.o
- .debug_info    0x000005c9      0x430 ./App/game.o
- .debug_info    0x000009f9      0x34d ./App/player.o
- .debug_info    0x00000d46      0x76d ./App/timer.o
- .debug_info    0x000014b3      0x459 ./App/tm1637.o
- .debug_info    0x0000190c      0xf77 ./Core/Src/main.o
- .debug_info    0x00002883      0xa85 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_info    0x00003308      0x714 ./Core/Src/stm32f4xx_it.o
- .debug_info    0x00003a1c      0x53e ./Core/Src/system_stm32f4xx.o
- .debug_info    0x00003f5a       0x30 ./Core/Startup/startup_stm32f411ceux.o
- .debug_info    0x00003f8a      0x8c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_info    0x0000484e      0xcc7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_info    0x00005515      0x6f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_info    0x00005c0e      0x8f2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_info    0x00006500     0x2996 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_info    0x00008e96     0x14d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+.debug_info     0x00000000     0xa376
+ .debug_info    0x00000000      0x397 ./App/Src/app.o
+ .debug_info    0x00000397      0x126 ./App/Src/button.o
+ .debug_info    0x000004bd      0x2ac ./App/Src/display.o
+ .debug_info    0x00000769      0x351 ./App/Src/game.o
+ .debug_info    0x00000aba      0x259 ./App/Src/player.o
+ .debug_info    0x00000d13      0x770 ./App/Src/timer.o
+ .debug_info    0x00001483      0x495 ./App/Src/tm1637.o
+ .debug_info    0x00001918      0xf77 ./Core/Src/main.o
+ .debug_info    0x0000288f      0xa85 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_info    0x00003314      0x714 ./Core/Src/stm32f4xx_it.o
+ .debug_info    0x00003a28      0x53e ./Core/Src/system_stm32f4xx.o
+ .debug_info    0x00003f66       0x30 ./Core/Startup/startup_stm32f411ceux.o
+ .debug_info    0x00003f96      0x8c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_info    0x0000485a      0xcc7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_info    0x00005521      0x6f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_info    0x00005c1a      0x8f2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_info    0x0000650c     0x2996 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_info    0x00008ea2     0x14d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_abbrev   0x00000000     0x1f5c
- .debug_abbrev  0x00000000      0x1a2 ./App/app.o
- .debug_abbrev  0x000001a2       0xc9 ./App/button.o
- .debug_abbrev  0x0000026b      0x16e ./App/game.o
- .debug_abbrev  0x000003d9      0x18e ./App/player.o
- .debug_abbrev  0x00000567      0x1e9 ./App/timer.o
- .debug_abbrev  0x00000750      0x1c0 ./App/tm1637.o
- .debug_abbrev  0x00000910      0x277 ./Core/Src/main.o
- .debug_abbrev  0x00000b87      0x1c1 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x00000d48      0x1ba ./Core/Src/stm32f4xx_it.o
- .debug_abbrev  0x00000f02      0x11a ./Core/Src/system_stm32f4xx.o
- .debug_abbrev  0x0000101c       0x24 ./Core/Startup/startup_stm32f411ceux.o
- .debug_abbrev  0x00001040      0x24b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_abbrev  0x0000128b      0x328 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_abbrev  0x000015b3      0x1d3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_abbrev  0x00001786      0x2b5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_abbrev  0x00001a3b      0x28b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_abbrev  0x00001cc6      0x296 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+.debug_abbrev   0x00000000     0x1f65
+ .debug_abbrev  0x00000000      0x130 ./App/Src/app.o
+ .debug_abbrev  0x00000130       0xc9 ./App/Src/button.o
+ .debug_abbrev  0x000001f9      0x15a ./App/Src/display.o
+ .debug_abbrev  0x00000353      0x111 ./App/Src/game.o
+ .debug_abbrev  0x00000464      0x134 ./App/Src/player.o
+ .debug_abbrev  0x00000598      0x1d7 ./App/Src/timer.o
+ .debug_abbrev  0x0000076f      0x1aa ./App/Src/tm1637.o
+ .debug_abbrev  0x00000919      0x277 ./Core/Src/main.o
+ .debug_abbrev  0x00000b90      0x1c1 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x00000d51      0x1ba ./Core/Src/stm32f4xx_it.o
+ .debug_abbrev  0x00000f0b      0x11a ./Core/Src/system_stm32f4xx.o
+ .debug_abbrev  0x00001025       0x24 ./Core/Startup/startup_stm32f411ceux.o
+ .debug_abbrev  0x00001049      0x24b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_abbrev  0x00001294      0x328 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_abbrev  0x000015bc      0x1d3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_abbrev  0x0000178f      0x2b5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_abbrev  0x00001a44      0x28b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_abbrev  0x00001ccf      0x296 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_aranges  0x00000000      0xaf0
+.debug_aranges  0x00000000      0xb20
  .debug_aranges
-                0x00000000       0x38 ./App/app.o
+                0x00000000       0x38 ./App/Src/app.o
  .debug_aranges
-                0x00000038       0x28 ./App/button.o
+                0x00000038       0x28 ./App/Src/button.o
  .debug_aranges
-                0x00000060       0x40 ./App/game.o
+                0x00000060       0x30 ./App/Src/display.o
  .debug_aranges
-                0x000000a0       0x40 ./App/player.o
+                0x00000090       0x40 ./App/Src/game.o
  .debug_aranges
-                0x000000e0       0x40 ./App/timer.o
+                0x000000d0       0x40 ./App/Src/player.o
  .debug_aranges
-                0x00000120       0x78 ./App/tm1637.o
+                0x00000110       0x40 ./App/Src/timer.o
  .debug_aranges
-                0x00000198       0x40 ./Core/Src/main.o
+                0x00000150       0x78 ./App/Src/tm1637.o
  .debug_aranges
-                0x000001d8       0x30 ./Core/Src/stm32f4xx_hal_msp.o
+                0x000001c8       0x40 ./Core/Src/main.o
  .debug_aranges
-                0x00000208       0x70 ./Core/Src/stm32f4xx_it.o
+                0x00000208       0x30 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_aranges
-                0x00000278       0x28 ./Core/Src/system_stm32f4xx.o
+                0x00000238       0x70 ./Core/Src/stm32f4xx_it.o
  .debug_aranges
-                0x000002a0       0x28 ./Core/Startup/startup_stm32f411ceux.o
+                0x000002a8       0x28 ./Core/Src/system_stm32f4xx.o
  .debug_aranges
-                0x000002c8       0xf0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x000002d0       0x28 ./Core/Startup/startup_stm32f411ceux.o
  .debug_aranges
-                0x000003b8      0x120 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x000002f8       0xf0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_aranges
-                0x000004d8       0x58 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x000003e8      0x120 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_aranges
-                0x00000530       0x88 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x00000508       0x58 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_aranges
-                0x000005b8      0x3d0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x00000560       0x88 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_aranges
-                0x00000988      0x168 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x000005e8      0x3d0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_aranges
+                0x000009b8      0x168 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
 .debug_rnglists
-                0x00000000      0x84e
+                0x00000000      0x86d
  .debug_rnglists
-                0x00000000       0x26 ./App/app.o
+                0x00000000       0x26 ./App/Src/app.o
  .debug_rnglists
-                0x00000026       0x19 ./App/button.o
+                0x00000026       0x19 ./App/Src/button.o
  .debug_rnglists
-                0x0000003f       0x2d ./App/game.o
+                0x0000003f       0x1f ./App/Src/display.o
  .debug_rnglists
-                0x0000006c       0x2b ./App/player.o
+                0x0000005e       0x2d ./App/Src/game.o
  .debug_rnglists
-                0x00000097       0x2b ./App/timer.o
+                0x0000008b       0x2b ./App/Src/player.o
  .debug_rnglists
-                0x000000c2       0x56 ./App/tm1637.o
+                0x000000b6       0x2b ./App/Src/timer.o
  .debug_rnglists
-                0x00000118       0x2e ./Core/Src/main.o
+                0x000000e1       0x56 ./App/Src/tm1637.o
  .debug_rnglists
-                0x00000146       0x1f ./Core/Src/stm32f4xx_hal_msp.o
+                0x00000137       0x2e ./Core/Src/main.o
  .debug_rnglists
-                0x00000165       0x4f ./Core/Src/stm32f4xx_it.o
+                0x00000165       0x1f ./Core/Src/stm32f4xx_hal_msp.o
  .debug_rnglists
-                0x000001b4       0x1a ./Core/Src/system_stm32f4xx.o
+                0x00000184       0x4f ./Core/Src/stm32f4xx_it.o
  .debug_rnglists
-                0x000001ce       0x19 ./Core/Startup/startup_stm32f411ceux.o
+                0x000001d3       0x1a ./Core/Src/system_stm32f4xx.o
  .debug_rnglists
-                0x000001e7       0xaf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x000001ed       0x19 ./Core/Startup/startup_stm32f411ceux.o
  .debug_rnglists
-                0x00000296       0xd4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x00000206       0xaf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_rnglists
-                0x0000036a       0x3f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x000002b5       0xd4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_rnglists
-                0x000003a9       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x00000389       0x3f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_rnglists
-                0x0000040f      0x31a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x000003c8       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_rnglists
-                0x00000729      0x125 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x0000042e      0x31a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_rnglists
+                0x00000748      0x125 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_macro    0x00000000    0x15d2e
- .debug_macro   0x00000000      0x205 ./App/app.o
- .debug_macro   0x00000205      0xab4 ./App/app.o
- .debug_macro   0x00000cb9      0x295 ./App/app.o
- .debug_macro   0x00000f4e       0x2e ./App/app.o
- .debug_macro   0x00000f7c       0x28 ./App/app.o
- .debug_macro   0x00000fa4       0x22 ./App/app.o
- .debug_macro   0x00000fc6       0x8e ./App/app.o
- .debug_macro   0x00001054       0x51 ./App/app.o
- .debug_macro   0x000010a5      0x103 ./App/app.o
- .debug_macro   0x000011a8       0x6a ./App/app.o
- .debug_macro   0x00001212      0x1df ./App/app.o
- .debug_macro   0x000013f1       0x1c ./App/app.o
- .debug_macro   0x0000140d       0x22 ./App/app.o
- .debug_macro   0x0000142f       0xfb ./App/app.o
- .debug_macro   0x0000152a     0x1011 ./App/app.o
- .debug_macro   0x0000253b      0x11f ./App/app.o
- .debug_macro   0x0000265a     0xb953 ./App/app.o
- .debug_macro   0x0000dfad       0x6d ./App/app.o
- .debug_macro   0x0000e01a     0x368c ./App/app.o
- .debug_macro   0x000116a6      0x189 ./App/app.o
- .debug_macro   0x0001182f       0x5c ./App/app.o
- .debug_macro   0x0001188b      0x45c ./App/app.o
- .debug_macro   0x00011ce7      0x9e9 ./App/app.o
- .debug_macro   0x000126d0      0x115 ./App/app.o
- .debug_macro   0x000127e5      0x11b ./App/app.o
- .debug_macro   0x00012900       0xa5 ./App/app.o
- .debug_macro   0x000129a5      0x15f ./App/app.o
- .debug_macro   0x00012b04      0x287 ./App/app.o
- .debug_macro   0x00012d8b       0x5f ./App/app.o
- .debug_macro   0x00012dea      0x236 ./App/app.o
- .debug_macro   0x00013020      0x132 ./App/app.o
- .debug_macro   0x00013152      0x264 ./App/app.o
- .debug_macro   0x000133b6       0x2e ./App/app.o
- .debug_macro   0x000133e4      0x127 ./App/app.o
- .debug_macro   0x0001350b       0x85 ./App/app.o
- .debug_macro   0x00013590       0x89 ./App/app.o
- .debug_macro   0x00013619      0x8ed ./App/app.o
- .debug_macro   0x00013f06       0x47 ./App/app.o
- .debug_macro   0x00013f4d      0x126 ./App/app.o
- .debug_macro   0x00014073       0x76 ./App/app.o
- .debug_macro   0x000140e9      0x1dd ./App/button.o
- .debug_macro   0x000142c6      0x1f5 ./App/game.o
- .debug_macro   0x000144bb       0x7c ./App/game.o
- .debug_macro   0x00014537      0x1d8 ./App/player.o
- .debug_macro   0x0001470f      0x1dd ./App/timer.o
- .debug_macro   0x000148ec      0x1ce ./App/tm1637.o
- .debug_macro   0x00014aba      0x1dd ./Core/Src/main.o
- .debug_macro   0x00014c97      0x1d3 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00014e6a      0x1dd ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x00015047      0x1c4 ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x0001520b      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x0001542f      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x000155f3      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x000157bd      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x000159a5      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_macro   0x00015b6a      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+.debug_macro    0x00000000    0x15be0
+ .debug_macro   0x00000000       0xa7 ./App/Src/app.o
+ .debug_macro   0x000000a7      0xab4 ./App/Src/app.o
+ .debug_macro   0x00000b5b       0x22 ./App/Src/app.o
+ .debug_macro   0x00000b7d       0x8e ./App/Src/app.o
+ .debug_macro   0x00000c0b       0x51 ./App/Src/app.o
+ .debug_macro   0x00000c5c      0x103 ./App/Src/app.o
+ .debug_macro   0x00000d5f       0x6a ./App/Src/app.o
+ .debug_macro   0x00000dc9      0x1df ./App/Src/app.o
+ .debug_macro   0x00000fa8      0x1dd ./App/Src/button.o
+ .debug_macro   0x00001185      0x295 ./App/Src/button.o
+ .debug_macro   0x0000141a       0x2e ./App/Src/button.o
+ .debug_macro   0x00001448       0x28 ./App/Src/button.o
+ .debug_macro   0x00001470       0x1c ./App/Src/button.o
+ .debug_macro   0x0000148c       0x22 ./App/Src/button.o
+ .debug_macro   0x000014ae       0xfb ./App/Src/button.o
+ .debug_macro   0x000015a9     0x1011 ./App/Src/button.o
+ .debug_macro   0x000025ba      0x11f ./App/Src/button.o
+ .debug_macro   0x000026d9     0xb953 ./App/Src/button.o
+ .debug_macro   0x0000e02c       0x6d ./App/Src/button.o
+ .debug_macro   0x0000e099     0x368c ./App/Src/button.o
+ .debug_macro   0x00011725      0x189 ./App/Src/button.o
+ .debug_macro   0x000118ae       0x5c ./App/Src/button.o
+ .debug_macro   0x0001190a      0x45c ./App/Src/button.o
+ .debug_macro   0x00011d66      0x9e9 ./App/Src/button.o
+ .debug_macro   0x0001274f      0x115 ./App/Src/button.o
+ .debug_macro   0x00012864      0x11b ./App/Src/button.o
+ .debug_macro   0x0001297f       0xa5 ./App/Src/button.o
+ .debug_macro   0x00012a24      0x15f ./App/Src/button.o
+ .debug_macro   0x00012b83      0x287 ./App/Src/button.o
+ .debug_macro   0x00012e0a       0x5f ./App/Src/button.o
+ .debug_macro   0x00012e69      0x236 ./App/Src/button.o
+ .debug_macro   0x0001309f      0x132 ./App/Src/button.o
+ .debug_macro   0x000131d1      0x264 ./App/Src/button.o
+ .debug_macro   0x00013435       0x2e ./App/Src/button.o
+ .debug_macro   0x00013463      0x127 ./App/Src/button.o
+ .debug_macro   0x0001358a       0x85 ./App/Src/button.o
+ .debug_macro   0x0001360f       0x89 ./App/Src/button.o
+ .debug_macro   0x00013698      0x8ed ./App/Src/button.o
+ .debug_macro   0x00013f85       0x47 ./App/Src/button.o
+ .debug_macro   0x00013fcc      0x126 ./App/Src/button.o
+ .debug_macro   0x000140f2       0x76 ./App/Src/button.o
+ .debug_macro   0x00014168      0x1e7 ./App/Src/display.o
+ .debug_macro   0x0001434f      0x1fb ./App/Src/game.o
+ .debug_macro   0x0001454a       0x77 ./App/Src/player.o
+ .debug_macro   0x000145c1      0x1dd ./App/Src/timer.o
+ .debug_macro   0x0001479e      0x1ce ./App/Src/tm1637.o
+ .debug_macro   0x0001496c      0x1dd ./Core/Src/main.o
+ .debug_macro   0x00014b49      0x1d3 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00014d1c      0x1dd ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x00014ef9      0x1c4 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x000150bd      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x000152e1      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x000154a5      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x0001566f      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x00015857      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_macro   0x00015a1c      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_line     0x00000000     0xc372
- .debug_line    0x00000000      0x70c ./App/app.o
- .debug_line    0x0000070c      0x6aa ./App/button.o
- .debug_line    0x00000db6      0x743 ./App/game.o
- .debug_line    0x000014f9      0x70d ./App/player.o
- .debug_line    0x00001c06      0x6e9 ./App/timer.o
- .debug_line    0x000022ef      0x847 ./App/tm1637.o
- .debug_line    0x00002b36      0x78d ./Core/Src/main.o
- .debug_line    0x000032c3      0x6b7 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_line    0x0000397a      0x770 ./Core/Src/stm32f4xx_it.o
- .debug_line    0x000040ea      0x700 ./Core/Src/system_stm32f4xx.o
- .debug_line    0x000047ea       0x7a ./Core/Startup/startup_stm32f411ceux.o
- .debug_line    0x00004864      0x969 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x000051cd      0xc31 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x00005dfe      0xab9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x000068b7      0xcda ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x00007591     0x34e7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_line    0x0000aa78     0x18fa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+.debug_line     0x00000000     0xc48d
+ .debug_line    0x00000000      0x3ff ./App/Src/app.o
+ .debug_line    0x000003ff      0x6b9 ./App/Src/button.o
+ .debug_line    0x00000ab8      0x6dc ./App/Src/display.o
+ .debug_line    0x00001194      0x753 ./App/Src/game.o
+ .debug_line    0x000018e7      0x413 ./App/Src/player.o
+ .debug_line    0x00001cfa      0x6f8 ./App/Src/timer.o
+ .debug_line    0x000023f2      0x85b ./App/Src/tm1637.o
+ .debug_line    0x00002c4d      0x791 ./Core/Src/main.o
+ .debug_line    0x000033de      0x6b7 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_line    0x00003a95      0x770 ./Core/Src/stm32f4xx_it.o
+ .debug_line    0x00004205      0x700 ./Core/Src/system_stm32f4xx.o
+ .debug_line    0x00004905       0x7a ./Core/Startup/startup_stm32f411ceux.o
+ .debug_line    0x0000497f      0x969 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x000052e8      0xc31 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x00005f19      0xab9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x000069d2      0xcda ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x000076ac     0x34e7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_line    0x0000ab93     0x18fa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_str      0x00000000    0x882b7
- .debug_str     0x00000000    0x85259 ./App/app.o
-                              0x854ed (size before relaxing)
- .debug_str     0x00085259       0x40 ./App/button.o
-                              0x852fb (size before relaxing)
- .debug_str     0x00085299       0x84 ./App/game.o
-                              0x85492 (size before relaxing)
- .debug_str     0x0008531d       0x25 ./App/player.o
-                              0x851d2 (size before relaxing)
- .debug_str     0x00085342      0x527 ./App/timer.o
-                              0x85896 (size before relaxing)
- .debug_str     0x00085869      0x117 ./App/tm1637.o
-                              0x8521f (size before relaxing)
- .debug_str     0x00085980      0x7a9 ./Core/Src/main.o
+.debug_str      0x00000000    0x8833b
+ .debug_str     0x00000000     0x3dd3 ./App/Src/app.o
+                               0x3f62 (size before relaxing)
+ .debug_str     0x00003dd3    0x81486 ./App/Src/button.o
+                              0x852ff (size before relaxing)
+ .debug_str     0x00085259       0xe5 ./App/Src/display.o
+                              0x85393 (size before relaxing)
+ .debug_str     0x0008533e       0x88 ./App/Src/game.o
+                              0x85442 (size before relaxing)
+ .debug_str     0x000853c6       0x14 ./App/Src/player.o
+                               0x3e49 (size before relaxing)
+ .debug_str     0x000853da      0x52b ./App/Src/timer.o
+                              0x858a1 (size before relaxing)
+ .debug_str     0x00085905      0x107 ./App/Src/tm1637.o
+                              0x85222 (size before relaxing)
+ .debug_str     0x00085a0c      0x7a1 ./Core/Src/main.o
                               0x8602a (size before relaxing)
- .debug_str     0x00086129       0x76 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x000861ad       0x76 ./Core/Src/stm32f4xx_hal_msp.o
                               0x85cd2 (size before relaxing)
- .debug_str     0x0008619f      0x11a ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00086223      0x11a ./Core/Src/stm32f4xx_it.o
                               0x858b3 (size before relaxing)
- .debug_str     0x000862b9       0xdb ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x0008633d       0xdb ./Core/Src/system_stm32f4xx.o
                               0x8525e (size before relaxing)
- .debug_str     0x00086394       0x44 ./Core/Startup/startup_stm32f411ceux.o
+ .debug_str     0x00086418       0x44 ./Core/Startup/startup_stm32f411ceux.o
                                  0x9c (size before relaxing)
- .debug_str     0x000863d8      0x617 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x0008645c      0x617 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
                               0x85c8a (size before relaxing)
- .debug_str     0x000869ef      0x33f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00086a73      0x33f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
                               0x859c2 (size before relaxing)
- .debug_str     0x00086d2e       0xf8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x00086db2       0xf8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
                               0x853d9 (size before relaxing)
- .debug_str     0x00086e26      0x233 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00086eaa      0x233 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
                               0x85692 (size before relaxing)
- .debug_str     0x00087059      0xdcb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_str     0x000870dd      0xdcb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
                               0x865d6 (size before relaxing)
- .debug_str     0x00087e24      0x493 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_str     0x00087ea8      0x493 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
                               0x85de2 (size before relaxing)
 
 .comment        0x00000000       0x43
- .comment       0x00000000       0x43 ./App/app.o
+ .comment       0x00000000       0x43 ./App/Src/app.o
                                  0x44 (size before relaxing)
- .comment       0x00000043       0x44 ./App/button.o
- .comment       0x00000043       0x44 ./App/game.o
- .comment       0x00000043       0x44 ./App/player.o
- .comment       0x00000043       0x44 ./App/timer.o
- .comment       0x00000043       0x44 ./App/tm1637.o
+ .comment       0x00000043       0x44 ./App/Src/button.o
+ .comment       0x00000043       0x44 ./App/Src/display.o
+ .comment       0x00000043       0x44 ./App/Src/game.o
+ .comment       0x00000043       0x44 ./App/Src/player.o
+ .comment       0x00000043       0x44 ./App/Src/timer.o
+ .comment       0x00000043       0x44 ./App/Src/tm1637.o
  .comment       0x00000043       0x44 ./Core/Src/main.o
  .comment       0x00000043       0x44 ./Core/Src/stm32f4xx_hal_msp.o
  .comment       0x00000043       0x44 ./Core/Src/stm32f4xx_it.o
@@ -4047,27 +4023,28 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .comment       0x00000043       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .comment       0x00000043       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_frame    0x00000000     0x2c24
- .debug_frame   0x00000000       0xa4 ./App/app.o
- .debug_frame   0x000000a4       0x5c ./App/button.o
- .debug_frame   0x00000100       0xdc ./App/game.o
- .debug_frame   0x000001dc       0xe0 ./App/player.o
- .debug_frame   0x000002bc       0xcc ./App/timer.o
- .debug_frame   0x00000388      0x1d0 ./App/tm1637.o
- .debug_frame   0x00000558       0xb0 ./Core/Src/main.o
- .debug_frame   0x00000608       0x80 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_frame   0x00000688      0x13c ./Core/Src/stm32f4xx_it.o
- .debug_frame   0x000007c4       0x58 ./Core/Src/system_stm32f4xx.o
- .debug_frame   0x0000081c      0x374 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_frame   0x00000b90      0x4b8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_frame   0x00001048      0x14c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_frame   0x00001194      0x1f4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_frame   0x00001388     0x11b8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_frame   0x00002540      0x638 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_frame   0x00002b78       0x20 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_frame   0x00002b98       0x2c /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
- .debug_frame   0x00002bc4       0x2c /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00002bf0       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+.debug_frame    0x00000000     0x2ca0
+ .debug_frame   0x00000000       0xa4 ./App/Src/app.o
+ .debug_frame   0x000000a4       0x5c ./App/Src/button.o
+ .debug_frame   0x00000100       0x7c ./App/Src/display.o
+ .debug_frame   0x0000017c       0xdc ./App/Src/game.o
+ .debug_frame   0x00000258       0xdc ./App/Src/player.o
+ .debug_frame   0x00000334       0xcc ./App/Src/timer.o
+ .debug_frame   0x00000400      0x1d4 ./App/Src/tm1637.o
+ .debug_frame   0x000005d4       0xb0 ./Core/Src/main.o
+ .debug_frame   0x00000684       0x80 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_frame   0x00000704      0x13c ./Core/Src/stm32f4xx_it.o
+ .debug_frame   0x00000840       0x58 ./Core/Src/system_stm32f4xx.o
+ .debug_frame   0x00000898      0x374 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_frame   0x00000c0c      0x4b8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_frame   0x000010c4      0x14c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_frame   0x00001210      0x1f4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_frame   0x00001404     0x11b8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_frame   0x000025bc      0x638 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_frame   0x00002bf4       0x20 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00002c14       0x2c /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x00002c40       0x2c /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002c6c       0x34 /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
 
 .debug_line_str
                 0x00000000       0x80

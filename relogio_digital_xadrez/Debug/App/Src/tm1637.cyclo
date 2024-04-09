@@ -1,0 +1,12 @@
+../App/Src/tm1637.c:21:6:tm1637Init	1
+../App/Src/tm1637.c:29:6:tm1637DisplayDecimal	5
+../App/Src/tm1637.c:59:6:tm1637SetBrightness	1
+../App/Src/tm1637.c:72:6:_tm1637Start	1
+../App/Src/tm1637.c:80:6:_tm1637Stop	1
+../App/Src/tm1637.c:91:6:_tm1637ReadResult	1
+../App/Src/tm1637.c:101:6:_tm1637WriteByte	3
+../App/Src/tm1637.c:118:6:_tm1637DelayUsec	3
+../App/Src/tm1637.c:127:6:_tm1637ClkHigh	1
+../App/Src/tm1637.c:132:6:_tm1637ClkLow	1
+../App/Src/tm1637.c:137:6:_tm1637DioHigh	1
+../App/Src/tm1637.c:142:6:_tm1637DioLow	1
