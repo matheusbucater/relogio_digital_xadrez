@@ -28,10 +28,10 @@ void tim_callback(timer_id tim_id) {
 void btn_callback(button_id btn_id) {
 	switch (btn_id) {
 		case BTN_PLAYER1:
-			game_change_active_player(&game, PLAYER1);
+			game_change_active_player(&game, PLAYER2);
 			break;
 		case BTN_PLAYER2:
-			game_change_active_player(&game, PLAYER2);
+			game_change_active_player(&game, PLAYER1);
 			break;
 		case BTN_MATCH_RESET:
 			game_stop(&game);

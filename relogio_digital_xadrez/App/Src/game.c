@@ -36,11 +36,11 @@ void game_stop(game_t *game) {
 	// TODO - Acionamento do Buzzer
 }
 
-void game_change_active_player(game_t *game, player_id plr_id) {
+void game_change_active_player(game_t *game, player_id next_player) {
 
-	if (game->active_player == plr_id) return;
+	if (game->active_player == next_player) return;
 
-	game->active_player = plr_id;
+	game->active_player = next_player;
 	timer_restart(TIM_TICK);
 
 	if (game->state == STOPPED) {
