@@ -57,10 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define SCL1_Pin GPIO_PIN_10
-#define SCL1_GPIO_Port GPIOB
-#define BUZZ_Pin GPIO_PIN_9
-#define BUZZ_GPIO_Port GPIOA
+#define BUZZ_Pin GPIO_PIN_13
+#define BUZZ_GPIO_Port GPIOC
+#define SCL2_Pin GPIO_PIN_10
+#define SCL2_GPIO_Port GPIOB
 #define BTN_PLAYER2_Pin GPIO_PIN_10
 #define BTN_PLAYER2_GPIO_Port GPIOA
 #define BTN_PLAYER2_EXTI_IRQn EXTI15_10_IRQn
@@ -70,11 +70,11 @@ void Error_Handler(void);
 #define BTN_MATCH_RESET_Pin GPIO_PIN_12
 #define BTN_MATCH_RESET_GPIO_Port GPIOA
 #define BTN_MATCH_RESET_EXTI_IRQn EXTI15_10_IRQn
-#define SDA1_Pin GPIO_PIN_3
+#define SCL1_Pin GPIO_PIN_6
+#define SCL1_GPIO_Port GPIOB
+#define SDA1_Pin GPIO_PIN_7
 #define SDA1_GPIO_Port GPIOB
-#define SCL2_Pin GPIO_PIN_6
-#define SCL2_GPIO_Port GPIOB
-#define SDA2_Pin GPIO_PIN_7
+#define SDA2_Pin GPIO_PIN_9
 #define SDA2_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */

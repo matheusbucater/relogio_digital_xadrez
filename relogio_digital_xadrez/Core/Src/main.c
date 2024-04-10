@@ -207,17 +207,10 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, SCL1_Pin|SDA1_Pin|SCL2_Pin|SDA2_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : SCL1_Pin SDA1_Pin SCL2_Pin SDA2_Pin */
-  GPIO_InitStruct.Pin = SCL1_Pin|SDA1_Pin|SCL2_Pin|SDA2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, SCL2_Pin|SCL1_Pin|SDA1_Pin|SDA2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : BUZZ_Pin */
   GPIO_InitStruct.Pin = BUZZ_Pin;
@@ -226,11 +219,25 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(BUZZ_GPIO_Port, &GPIO_InitStruct);
 
+  /*Configure GPIO pins : SCL2_Pin SDA1_Pin SDA2_Pin */
+  GPIO_InitStruct.Pin = SCL2_Pin|SDA1_Pin|SDA2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
   /*Configure GPIO pins : BTN_PLAYER2_Pin BTN_PLAYER1_Pin BTN_MATCH_RESET_Pin */
   GPIO_InitStruct.Pin = BTN_PLAYER2_Pin|BTN_PLAYER1_Pin|BTN_MATCH_RESET_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : SCL1_Pin */
+  GPIO_InitStruct.Pin = SCL1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(SCL1_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
