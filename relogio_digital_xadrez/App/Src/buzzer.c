@@ -6,7 +6,6 @@
  */
 
 #include "buzzer.h"
-#include "main.h"
 
 void buzzer_brr_ms(buzzer_id buzz_id, uint32_t delay_ms) {
 	switch (buzz_id) {
