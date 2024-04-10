@@ -8,6 +8,7 @@
 #include "game.h"
 #include "main.h"
 #include "timer.h"
+#include "buzzer.h"
 
 extern TIM_HandleTypeDef htim2;
 
@@ -33,7 +34,7 @@ void game_start(game_t *game) {
 void game_stop(game_t *game) {
 	game->state = STOPPED;
 	timer_stop(TIM_TICK);
-	// TODO - Acionamento do Buzzer
+	buzzer_brr_ms(BUZZ_STOP, 1500);
 }
 
 void game_change_active_player(game_t *game, player_id next_player) {

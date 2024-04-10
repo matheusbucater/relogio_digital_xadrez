@@ -7,6 +7,7 @@
 C_SRCS += \
 ../App/Src/app.c \
 ../App/Src/button.c \
+../App/Src/buzzer.c \
 ../App/Src/display.c \
 ../App/Src/game.c \
 ../App/Src/player.c \
@@ -16,6 +17,7 @@ C_SRCS += \
 OBJS += \
 ./App/Src/app.o \
 ./App/Src/button.o \
+./App/Src/buzzer.o \
 ./App/Src/display.o \
 ./App/Src/game.o \
 ./App/Src/player.o \
@@ -25,6 +27,7 @@ OBJS += \
 C_DEPS += \
 ./App/Src/app.d \
 ./App/Src/button.d \
+./App/Src/buzzer.d \
 ./App/Src/display.d \
 ./App/Src/game.d \
 ./App/Src/player.d \
@@ -39,7 +42,7 @@ App/Src/%.o App/Src/%.su App/Src/%.cyclo: ../App/Src/%.c App/Src/subdir.mk
 clean: clean-App-2f-Src
 
 clean-App-2f-Src:
-	-$(RM) ./App/Src/app.cyclo ./App/Src/app.d ./App/Src/app.o ./App/Src/app.su ./App/Src/button.cyclo ./App/Src/button.d ./App/Src/button.o ./App/Src/button.su ./App/Src/display.cyclo ./App/Src/display.d ./App/Src/display.o ./App/Src/display.su ./App/Src/game.cyclo ./App/Src/game.d ./App/Src/game.o ./App/Src/game.su ./App/Src/player.cyclo ./App/Src/player.d ./App/Src/player.o ./App/Src/player.su ./App/Src/timer.cyclo ./App/Src/timer.d ./App/Src/timer.o ./App/Src/timer.su ./App/Src/tm1637.cyclo ./App/Src/tm1637.d ./App/Src/tm1637.o ./App/Src/tm1637.su
+	-$(RM) ./App/Src/app.cyclo ./App/Src/app.d ./App/Src/app.o ./App/Src/app.su ./App/Src/button.cyclo ./App/Src/button.d ./App/Src/button.o ./App/Src/button.su ./App/Src/buzzer.cyclo ./App/Src/buzzer.d ./App/Src/buzzer.o ./App/Src/buzzer.su ./App/Src/display.cyclo ./App/Src/display.d ./App/Src/display.o ./App/Src/display.su ./App/Src/game.cyclo ./App/Src/game.d ./App/Src/game.o ./App/Src/game.su ./App/Src/player.cyclo ./App/Src/player.d ./App/Src/player.o ./App/Src/player.su ./App/Src/timer.cyclo ./App/Src/timer.d ./App/Src/timer.o ./App/Src/timer.su ./App/Src/tm1637.cyclo ./App/Src/tm1637.d ./App/Src/tm1637.o ./App/Src/tm1637.su
 
 .PHONY: clean-App-2f-Src
 

@@ -1,5 +1,6 @@
 "./App/Src/app.o"
 "./App/Src/button.o"
+"./App/Src/buzzer.o"
 "./App/Src/display.o"
 "./App/Src/game.o"
 "./App/Src/player.o"
