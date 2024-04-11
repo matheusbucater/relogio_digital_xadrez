@@ -1,145 +1,154 @@
+/*
+ * tm1637.c
+ *
+ *  Created on: Apr 11, 2024
+ *      Author: coppolimeros
+ */
+
+// tm1637 datasheet - https://github.com/revolunet/tm1637/blob/master/datasheet-en.pdf
+
 #include "tm1637.h"
 
+void tm1637_clk_high(tm1637_t tm1637);
+void tm1637_clk_low(tm1637_t tm1637);
+void tm1637_dio_high(tm1637_t tm1637);
+void tm1637_dio_low(tm1637_t tm1637);
+void tm1637_start_transfer(tm1637_t tm1637);
+void tm1637_stop_transfer(tm1637_t tm1637);
+void tm1637_dio_input(tm1637_t tm1637);
+void tm1637_dio_input(tm1637_t tm1637);
+ack_status tm1637_ack(tm1637_t tm1637);
+void tm1637_write_byte(tm1637_t tm1637, uint8_t byte);
 
-void _tm1637Start(tm1637_t display);
-void _tm1637Stop(tm1637_t display);
-void _tm1637ReadResult(tm1637_t display);
-void _tm1637WriteByte(tm1637_t display, unsigned char b);
-void _tm1637DelayUsec(unsigned int i);
-void _tm1637ClkHigh(tm1637_t display);
-void _tm1637ClkLow(tm1637_t display);
-void _tm1637DioHigh(tm1637_t display);
-void _tm1637DioLow(tm1637_t display);
 
-const char segmentMap[] = {
-    0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, // 0-7
-    0x7f, 0x6f, 0x77, 0x7c, 0x39, 0x5e, 0x79, 0x71, // 8-9, A-F
-    0x00
+const char segments[] = {
+    0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f // 0 - 9
 };
 
-
-void tm1637Init(tm1637_t* display, GPIO_TypeDef* clk_port, GPIO_TypeDef* dio_port, uint16_t clk_pin, uint16_t dio_pin)
-{
-	display->clk_port = clk_port;
-	display->dio_port = dio_port;
-	display->clk_pin = clk_pin;
-	display->dio_pin = dio_pin;
+void tm1637_init(tm1637_t* tm1637, GPIO_TypeDef* clk_port, GPIO_TypeDef* dio_port, uint16_t clk_pin, uint16_t dio_pin) {
+	tm1637->clk_port = clk_port;
+	tm1637->dio_port = dio_port;
+	tm1637->clk_pin = clk_pin;
+	tm1637->dio_pin = dio_pin;
 }
 
-void tm1637DisplayDecimal(tm1637_t display, int v, int displaySeparator)
-{
-    unsigned char digitArr[4];
+void tm1637_display_decimal(tm1637_t tm1637, int decimal) {
+	// from the datasheet:
+	// Write SRAM data in address auto increment 1 mode.
+	// Start > Command1 > ACK > Stop > Start > Command2 > ACK > Data1 > ACK > Data2 > ACK >  ... > ACK > DataN > ACK > Stop > Start > Command3 > ACK > Stop
+	// ps.: the datasheet dont mention the second-last Stop (but it makes senses to be there >_<)
+
+	// Command1: Set data
+	// Command2: Set address
+	// Data1~N:  Transfer data display
+	// Command3: Control display
+
+
+    unsigned char digits[4];
     for (int i = 0; i < 4; ++i) {
-        digitArr[i] = segmentMap[v % 10];
-        if (i == 2 && displaySeparator) {
-            digitArr[i] |= 1 << 7;
-        }
-        v /= 10;
+        digits[i] = segments[decimal % 10];
+        decimal /= 10;
     }
 
-    _tm1637Start(display);
-    _tm1637WriteByte(display, 0x40);
-    _tm1637ReadResult(display);
-    _tm1637Stop(display);
+	// Command1
+	tm1637_start_transfer(tm1637);
+	tm1637_write_byte(tm1637, WRITE_DATA);
+	if (tm1637_ack(tm1637) == ACK_ERROR) return;
+	tm1637_stop_transfer(tm1637);
 
-    _tm1637Start(display);
-    _tm1637WriteByte(display, 0xc0);
-    _tm1637ReadResult(display);
+	// Command2
+	tm1637_start_transfer(tm1637);
+	tm1637_write_byte(tm1637, DISP_ADDR);
+	if (tm1637_ack(tm1637) == ACK_ERROR) return;
 
-    for (int i = 0; i < 4; ++i) {
-        _tm1637WriteByte(display, digitArr[3 - i]);
-        _tm1637ReadResult(display);
-    }
-
-    _tm1637Stop(display);
+	// Data4 (4 digit display)
+	for (int i = 0; i < 4; i++) {
+		tm1637_write_byte(tm1637, digits[3-i]);
+		if (tm1637_ack(tm1637) == ACK_ERROR) return;
+	}
+	tm1637_stop_transfer(tm1637);
 }
 
-// Valid brightness values: 0 - 8.
-// 0 = display off.
-void tm1637SetBrightness(tm1637_t display, char brightness)
-{
-    // Brightness command:
-    // 1000 0XXX = display off
-    // 1000 1BBB = display on, brightness 0-7
-    // X = don't care
-    // B = brightness
-    _tm1637Start(display);
-    _tm1637WriteByte(display, 0x87 + brightness);
-    _tm1637ReadResult(display);
-    _tm1637Stop(display);
+void tm1637_display_on(tm1637_t tm1637) {
+	tm1637_start_transfer(tm1637);
+	tm1637_write_byte(tm1637, DISPLAY_ON);
+	if (tm1637_ack(tm1637) == ACK_ERROR) return;
+	tm1637_stop_transfer(tm1637);
 }
 
-void _tm1637Start(tm1637_t display)
-{
-    _tm1637ClkHigh(display);
-    _tm1637DioHigh(display);
-    _tm1637DelayUsec(2);
-    _tm1637DioLow(display);
+void tm1637_display_off(tm1637_t tm1637) {
+	tm1637_start_transfer(tm1637);
+	tm1637_write_byte(tm1637, DISPLAY_ON);
+	if (tm1637_ack(tm1637) == ACK_ERROR) return;
+	tm1637_stop_transfer(tm1637);
 }
 
-void _tm1637Stop(tm1637_t display)
-{
-    _tm1637ClkLow(display);
-    _tm1637DelayUsec(2);
-    _tm1637DioLow(display);
-    _tm1637DelayUsec(2);
-    _tm1637ClkHigh(display);
-    _tm1637DelayUsec(2);
-    _tm1637DioHigh(display);
+
+void tm1637_write_byte(tm1637_t tm1637, uint8_t byte) {
+	for (int i = 0; i < 8; i++) {
+		tm1637_clk_low(tm1637);
+
+		if (byte & 0x01) tm1637_dio_high(tm1637);
+		else tm1637_dio_low(tm1637);
+
+		tm1637_clk_high(tm1637);
+
+		byte >>= 1;
+	}
 }
 
-void _tm1637ReadResult(tm1637_t display)
-{
-    _tm1637ClkLow(display);
-    _tm1637DelayUsec(5);
-    // while (dio); // We're cheating here and not actually reading back the response.
-    _tm1637ClkHigh(display);
-    _tm1637DelayUsec(2);
-    _tm1637ClkLow(display);
+
+void tm1637_start_transfer(tm1637_t tm1637) {
+	tm1637_clk_high(tm1637);
+	tm1637_dio_high(tm1637);
+	tm1637_dio_low(tm1637);
 }
 
-void _tm1637WriteByte(tm1637_t display, unsigned char b)
-{
-    for (int i = 0; i < 8; ++i) {
-        _tm1637ClkLow(display);
-        if (b & 0x01) {
-            _tm1637DioHigh(display);
-        }
-        else {
-            _tm1637DioLow(display);
-        }
-        _tm1637DelayUsec(3);
-        b >>= 1;
-        _tm1637ClkHigh(display);
-        _tm1637DelayUsec(3);
-    }
+void tm1637_stop_transfer(tm1637_t tm1637) {
+	tm1637_clk_high(tm1637);
+	tm1637_dio_low(tm1637);
+	tm1637_dio_high(tm1637);
 }
 
-void _tm1637DelayUsec(unsigned int i)
-{
-    for (; i>0; i--) {
-        for (int j = 0; j < 10; ++j) {
-            __asm__ __volatile__("nop\n\t":::"memory");
-        }
-    }
+ack_status tm1637_ack(tm1637_t tm1637) {
+	tm1637_dio_input(tm1637);
+	GPIO_PinState ack = GPIO_PIN_SET;
+	ack = HAL_GPIO_ReadPin(tm1637.dio_port, tm1637.dio_pin);
+	tm1637_dio_input(tm1637);
+	if (ack == GPIO_PIN_SET) {
+		return ACK_ERROR;
+	}
+
+	return ACK_OK;
 }
 
-void _tm1637ClkHigh(tm1637_t display)
-{
-    HAL_GPIO_WritePin(display.clk_port, display.clk_pin, GPIO_PIN_SET);
+void tm1637_dio_input(tm1637_t tm1637) {
+	GPIO_InitTypeDef GPIO_InitStruct = { 0 };
+	GPIO_InitStruct.Pin = tm1637.dio_pin;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+
+	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
 }
 
-void _tm1637ClkLow(tm1637_t display)
-{
-    HAL_GPIO_WritePin(display.clk_port, display.clk_pin, GPIO_PIN_RESET);
+void tm1637_dio_output(tm1637_t tm1637) {
+	GPIO_InitTypeDef GPIO_InitStruct = { 0 };
+	GPIO_InitStruct.Pin = tm1637.dio_pin;
+	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+
+	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
 }
 
-void _tm1637DioHigh(tm1637_t display)
-{
-    HAL_GPIO_WritePin(display.dio_port, display.dio_pin, GPIO_PIN_SET);
+void tm1637_clk_high(tm1637_t tm1637) {
+	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, SET);
 }
-
-void _tm1637DioLow(tm1637_t display)
-{
-    HAL_GPIO_WritePin(display.dio_port, display.dio_pin, GPIO_PIN_RESET);
+void tm1637_clk_low(tm1637_t tm1637) {
+	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, RESET);
+}
+void tm1637_dio_high(tm1637_t tm1637) {
+	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, SET);
+}
+void tm1637_dio_low(tm1637_t tm1637) {
+	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, RESET);
 }
