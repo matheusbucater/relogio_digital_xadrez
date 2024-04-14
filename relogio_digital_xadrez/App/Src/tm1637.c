@@ -8,6 +8,7 @@
 // tm1637 datasheet - https://github.com/revolunet/tm1637/blob/master/datasheet-en.pdf
 
 #include "tm1637.h"
+#include "timer.h"
 
 void tm1637_clk_high(tm1637_t tm1637);
 void tm1637_clk_low(tm1637_t tm1637);
@@ -16,7 +17,7 @@ void tm1637_dio_low(tm1637_t tm1637);
 void tm1637_start_transfer(tm1637_t tm1637);
 void tm1637_stop_transfer(tm1637_t tm1637);
 void tm1637_dio_input(tm1637_t tm1637);
-void tm1637_dio_input(tm1637_t tm1637);
+void tm1637_dio_output(tm1637_t tm1637);
 ack_status tm1637_ack(tm1637_t tm1637);
 void tm1637_write_byte(tm1637_t tm1637, uint8_t byte);
 
@@ -114,7 +115,7 @@ ack_status tm1637_ack(tm1637_t tm1637) {
 	tm1637_dio_input(tm1637);
 	GPIO_PinState ack = GPIO_PIN_SET;
 	ack = HAL_GPIO_ReadPin(tm1637.dio_port, tm1637.dio_pin);
-	tm1637_dio_input(tm1637);
+	tm1637_dio_output(tm1637);
 	if (ack == GPIO_PIN_SET) {
 		return ACK_ERROR;
 	}
@@ -129,6 +130,7 @@ void tm1637_dio_input(tm1637_t tm1637) {
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 
 	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
+	timer_delay_us(TIM_DELAY, 4);
 }
 
 void tm1637_dio_output(tm1637_t tm1637) {
@@ -138,17 +140,22 @@ void tm1637_dio_output(tm1637_t tm1637) {
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 
 	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
+	timer_delay_us(TIM_DELAY, 4);
 }
 
 void tm1637_clk_high(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, SET);
+	timer_delay_us(TIM_DELAY, 4);
 }
 void tm1637_clk_low(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, RESET);
+	timer_delay_us(TIM_DELAY, 4);
 }
 void tm1637_dio_high(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, SET);
+	timer_delay_us(TIM_DELAY, 4);
 }
 void tm1637_dio_low(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, RESET);
+	timer_delay_us(TIM_DELAY, 4);
 }
