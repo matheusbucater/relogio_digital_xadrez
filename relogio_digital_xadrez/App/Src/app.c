@@ -15,6 +15,7 @@
 player_t player1, player2;
 game_t game;
 
+// define the callback for the timers
 void tim_callback(timer_id tim_id) {
 	switch (tim_id) {
 		case TIM_TICK:
@@ -25,6 +26,7 @@ void tim_callback(timer_id tim_id) {
 	}
 }
 
+// define the callback for the buttons
 void btn_callback(button_id btn_id) {
 	switch (btn_id) {
 		case BTN_PLAYER1:

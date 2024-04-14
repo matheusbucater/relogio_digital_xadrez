@@ -1,6 +1,7 @@
-../App/Src/timer.c:15:6:timer_start	3
-../App/Src/timer.c:28:6:timer_stop	3
-../App/Src/timer.c:41:6:timer_restart	3
-../App/Src/timer.c:54:6:timer_delay_us	2
-../App/Src/timer.c:61:6:timer_attach_callback	1
-../App/Src/timer.c:66:6:HAL_TIM_PeriodElapsedCallback	3
+../App/Src/timer.c:17:6:timer_start	3
+../App/Src/timer.c:31:6:timer_stop	3
+../App/Src/timer.c:45:6:timer_restart	3
+../App/Src/timer.c:59:6:timer_delay_us	2
+../App/Src/timer.c:67:6:timer_delay_ms	1
+../App/Src/timer.c:72:6:timer_attach_callback	1
+../App/Src/timer.c:76:6:HAL_TIM_PeriodElapsedCallback	3

@@ -12,6 +12,7 @@
 tm1637_t display1;
 tm1637_t display2;
 
+// init the diplay
 void display_init(display_id dsp_id) {
 	switch (dsp_id) {
 		case DISPLAY1:
@@ -25,6 +26,7 @@ void display_init(display_id dsp_id) {
 	}
 }
 
+// start the display
 void display_start(display_id dsp_id) {
 	switch(dsp_id) {
 		case DISPLAY1:
@@ -38,6 +40,7 @@ void display_start(display_id dsp_id) {
 	}
 }
 
+// show the value in the display
 void display_show(display_id dsp_id, int value) {
 	switch(dsp_id) {
 		case DISPLAY1:

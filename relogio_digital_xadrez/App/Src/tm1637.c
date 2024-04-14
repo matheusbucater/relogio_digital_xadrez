@@ -21,11 +21,12 @@ void tm1637_dio_output(tm1637_t tm1637);
 ack_status tm1637_ack(tm1637_t tm1637);
 void tm1637_write_byte(tm1637_t tm1637, uint8_t byte);
 
-
+// segments map to digit (hexa)
 const char segments[] = {
     0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f // 0 - 9
 };
 
+// init tm1637 struct
 void tm1637_init(tm1637_t* tm1637, GPIO_TypeDef* clk_port, GPIO_TypeDef* dio_port, uint16_t clk_pin, uint16_t dio_pin) {
 	tm1637->clk_port = clk_port;
 	tm1637->dio_port = dio_port;
@@ -33,6 +34,7 @@ void tm1637_init(tm1637_t* tm1637, GPIO_TypeDef* clk_port, GPIO_TypeDef* dio_por
 	tm1637->dio_pin = dio_pin;
 }
 
+// display the digits
 void tm1637_display_decimal(tm1637_t tm1637, int decimal) {
 	// from the datasheet:
 	// Write SRAM data in address auto increment 1 mode.
@@ -70,6 +72,7 @@ void tm1637_display_decimal(tm1637_t tm1637, int decimal) {
 	tm1637_stop_transfer(tm1637);
 }
 
+// turn display on
 void tm1637_display_on(tm1637_t tm1637) {
 	tm1637_start_transfer(tm1637);
 	tm1637_write_byte(tm1637, DISPLAY_ON);
@@ -77,6 +80,7 @@ void tm1637_display_on(tm1637_t tm1637) {
 	tm1637_stop_transfer(tm1637);
 }
 
+// turn display off
 void tm1637_display_off(tm1637_t tm1637) {
 	tm1637_start_transfer(tm1637);
 	tm1637_write_byte(tm1637, DISPLAY_ON);
@@ -84,7 +88,7 @@ void tm1637_display_off(tm1637_t tm1637) {
 	tm1637_stop_transfer(tm1637);
 }
 
-
+// write a single byte to tm1637
 void tm1637_write_byte(tm1637_t tm1637, uint8_t byte) {
 	for (int i = 0; i < 8; i++) {
 		tm1637_clk_low(tm1637);
@@ -98,19 +102,21 @@ void tm1637_write_byte(tm1637_t tm1637, uint8_t byte) {
 	}
 }
 
-
+// start a packet transfer
 void tm1637_start_transfer(tm1637_t tm1637) {
 	tm1637_clk_high(tm1637);
 	tm1637_dio_high(tm1637);
 	tm1637_dio_low(tm1637);
 }
 
+// stop a packet transfer
 void tm1637_stop_transfer(tm1637_t tm1637) {
 	tm1637_clk_high(tm1637);
 	tm1637_dio_low(tm1637);
 	tm1637_dio_high(tm1637);
 }
 
+// listen to ack and return status
 ack_status tm1637_ack(tm1637_t tm1637) {
 	tm1637_dio_input(tm1637);
 	GPIO_PinState ack = GPIO_PIN_SET;
@@ -123,6 +129,7 @@ ack_status tm1637_ack(tm1637_t tm1637) {
 	return ACK_OK;
 }
 
+// change SDA to input mode
 void tm1637_dio_input(tm1637_t tm1637) {
 	GPIO_InitTypeDef GPIO_InitStruct = { 0 };
 	GPIO_InitStruct.Pin = tm1637.dio_pin;
@@ -130,9 +137,10 @@ void tm1637_dio_input(tm1637_t tm1637) {
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 
 	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }
 
+// change SDA to output mode (opendrain)
 void tm1637_dio_output(tm1637_t tm1637) {
 	GPIO_InitTypeDef GPIO_InitStruct = { 0 };
 	GPIO_InitStruct.Pin = tm1637.dio_pin;
@@ -140,22 +148,26 @@ void tm1637_dio_output(tm1637_t tm1637) {
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 
 	HAL_GPIO_Init(tm1637.dio_port, &GPIO_InitStruct);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }
 
+// set SCL to high
 void tm1637_clk_high(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, SET);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }
+// set SCL to low
 void tm1637_clk_low(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.clk_port, tm1637.clk_pin, RESET);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }
+// set SDA to high
 void tm1637_dio_high(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, SET);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }
+// set SDA to low
 void tm1637_dio_low(tm1637_t tm1637) {
 	HAL_GPIO_WritePin(tm1637.dio_port, tm1637.dio_pin, RESET);
-	timer_delay_us(TIM_DELAY, 4);
+	timer_delay_us(4);
 }

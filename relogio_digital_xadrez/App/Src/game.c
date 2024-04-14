@@ -14,6 +14,8 @@ extern TIM_HandleTypeDef htim2;
 
 void game_display_timers(game_t game);
 
+// init game struct
+// and display players time
 void game_init(game_t *game, player_t player1, player_t player2) {
 	game->state = STOPPED;
 	game->player1 = player1;
@@ -24,6 +26,7 @@ void game_init(game_t *game, player_t player1, player_t player2) {
 	player_display_curr(game->player2);
 }
 
+// start the game (timer)
 void game_start(game_t *game) {
 	game->state = ACTIVE;
 	player_time_restart(&game->player1);
@@ -31,12 +34,14 @@ void game_start(game_t *game) {
 	timer_start(TIM_TICK);
 }
 
+// stop the game (timer)
 void game_stop(game_t *game) {
 	game->state = STOPPED;
 	timer_stop(TIM_TICK);
 	buzzer_brr_ms(BUZZ_STOP, 1500);
 }
 
+// change the current player
 void game_change_active_player(game_t *game, player_id next_player) {
 
 	if (game->active_player == next_player) return;
@@ -49,6 +54,7 @@ void game_change_active_player(game_t *game, player_id next_player) {
 	}
 }
 
+// decrement current time from the active_player
 void game_update(game_t *game) {
 	if (game->state == STOPPED) return;
 

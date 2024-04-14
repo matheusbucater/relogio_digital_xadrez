@@ -1,2 +1,3 @@
-../App/Src/button.c:13:6:button_attach_callback	1
-../App/Src/button.c:17:6:HAL_GPIO_EXTI_Callback	6
+../App/Src/button.c:17:6:button_debounce	1
+../App/Src/button.c:24:6:button_attach_callback	1
+../App/Src/button.c:28:6:HAL_GPIO_EXTI_Callback	6

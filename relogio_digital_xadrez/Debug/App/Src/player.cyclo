@@ -1,5 +1,5 @@
-../App/Src/player.c:10:6:player_init	1
-../App/Src/player.c:17:6:player_time_restart	1
-../App/Src/player.c:21:5:player_time_ended	3
-../App/Src/player.c:32:6:player_time_dec	2
-../App/Src/player.c:41:6:player_display_curr	1
+../App/Src/player.c:11:6:player_init	1
+../App/Src/player.c:19:6:player_time_restart	1
+../App/Src/player.c:26:5:player_time_ended	3
+../App/Src/player.c:38:6:player_time_dec	2
+../App/Src/player.c:48:6:player_display_curr	1

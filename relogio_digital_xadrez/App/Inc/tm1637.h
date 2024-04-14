@@ -23,8 +23,8 @@ typedef struct {
 } tm1637_t;
 
 typedef enum {
-	ACK_OK = 0,
-	ACK_ERROR
+	ACK_OK = 0, // Peripheral lowered SDA
+	ACK_ERROR // Peripheral didnt lowered SDA
 } ack_status;
 
 void tm1637_init(tm1637_t* tm1637, GPIO_TypeDef* clk_port, GPIO_TypeDef* dio_port, uint16_t clk_pin, uint16_t dio_pin);

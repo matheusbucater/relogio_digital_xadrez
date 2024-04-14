@@ -10,8 +10,10 @@
 extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 
+// pointer to the callback
 void (*timer_callback) (timer_id id) = NULL;
 
+// start the timer based on the timer_id
 void timer_start(timer_id tim_id) {
 	switch (tim_id) {
 		case TIM_TICK:
@@ -25,6 +27,7 @@ void timer_start(timer_id tim_id) {
 	}
 }
 
+// start the timer based on the timer_id
 void timer_stop(timer_id tim_id) {
 	switch (tim_id) {
 		case TIM_TICK:
@@ -38,6 +41,7 @@ void timer_stop(timer_id tim_id) {
 	}
 }
 
+// set the timer counter to 0 based on the timer_id
 void timer_restart(timer_id tim_id) {
 	switch (tim_id) {
 		case TIM_TICK:
@@ -51,17 +55,23 @@ void timer_restart(timer_id tim_id) {
 	}
 }
 
-void timer_delay_us(timer_id tim_id, uint16_t delay_us) {
-	timer_restart(tim_id);
-	timer_start(tim_id);
+// block while TIM_DELAY less than delays_us
+void timer_delay_us(uint16_t delay_us) {
+	timer_restart(TIM_DELAY);
+	timer_start(TIM_DELAY);
 	while(__HAL_TIM_GET_COUNTER(&htim3) < delay_us);
-	timer_stop(tim_id);
+	timer_stop(TIM_DELAY);
 }
 
+// block with HAL_Delay for delay_ms
+void timer_delay_ms(uint16_t delay_ms) {
+	HAL_Delay(delay_ms);
+}
+
+// attach the callback function (IT mode)
 void timer_attach_callback(void (*callback) (timer_id tim_id)) {
 	timer_callback = callback;
 }
-
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim) {
 
